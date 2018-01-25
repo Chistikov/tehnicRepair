@@ -1894,6 +1894,176 @@
       font-weight: 500;
       margin-top: 50px;
       text-transform: uppercase; } }
+/* line 5, ../sass/contactsBlock.sass */
+.wrapper > article > .contactsBlock {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 110px;
+  margin-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px; }
+  /* line 18, ../sass/contactsBlock.sass */
+  .wrapper > article > .contactsBlock > .textBlock > .infoWrapper {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 22px; }
+    /* line 26, ../sass/contactsBlock.sass */
+    > .wrapper > article > .contactsBlock > .textBlock > .infoWrapper:last-child {
+      margin-bottom: 0px; }
+    /* line 29, ../sass/contactsBlock.sass */
+    .wrapper > article > .contactsBlock > .textBlock > .infoWrapper > .text {
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
+    /* line 35, ../sass/contactsBlock.sass */
+    .wrapper > article > .contactsBlock > .textBlock > .infoWrapper > .info {
+      font-size: 18px;
+      font-weight: 400;
+      margin-left: 7px; }
+  /* line 40, ../sass/contactsBlock.sass */
+  .wrapper > article > .contactsBlock > .contactsB {
+    margin-left: 100px; }
+    /* line 43, ../sass/contactsBlock.sass */
+    .wrapper > article > .contactsBlock > .contactsB > .title {
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    /* line 48, ../sass/contactsBlock.sass */
+    .wrapper > article > .contactsBlock > .contactsB > .phonesBlock {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 30px; }
+      /* line 56, ../sass/contactsBlock.sass */
+      .wrapper > article > .contactsBlock > .contactsB > .phonesBlock > .phoneImg {
+        width: 50px;
+        height: 50px;
+        background-color: #ffcf17;
+        border-radius: 50%;
+        background-image: url("../img/phoneInCircle.svg");
+        background-size: 38px;
+        background-repeat: no-repeat;
+        background-position: center; }
+      /* line 67, ../sass/contactsBlock.sass */
+      .wrapper > article > .contactsBlock > .contactsB > .phonesBlock > .phonesWrapper > .phone {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 3px 0px 3px 7px; }
+    /* line 72, ../sass/contactsBlock.sass */
+    .wrapper > article > .contactsBlock > .contactsB > .skypeBtn {
+      width: 172px;
+      height: 50px;
+      background-color: #369eff;
+      border-radius: 25px;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      color: #fff;
+      margin-top: 20px; }
+      /* line 86, ../sass/contactsBlock.sass */
+      .wrapper > article > .contactsBlock > .contactsB > .skypeBtn > .skypeImg {
+        width: 50px;
+        height: 50px;
+        background-color: #178fff;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        border-radius: 50%;
+        background-image: url(../img/skype-circular.svg);
+        background-size: 38px;
+        background-repeat: no-repeat;
+        background-position: center; }
+      /* line 97, ../sass/contactsBlock.sass */
+      .wrapper > article > .contactsBlock > .contactsB > .skypeBtn > .text {
+        display: block;
+        padding-top: 9px;
+        margin-left: 8px;
+        font-size: 15px;
+        font-weight: 300;
+        color: #fff;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+        cursor: pointer;
+        text-decoration: none; }
+/* line 108, ../sass/contactsBlock.sass */
+.wrapper > article > .desc {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0px 20px;
+  margin-bottom: 110px; }
+
+/**** MEDIA *** */
+@media screen and (max-width: 799px) {
+  /* line 129, ../sass/contactsBlock.sass */
+  .wrapper > article > .contactsBlock {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    /* line 134, ../sass/contactsBlock.sass */
+    .wrapper > article > .contactsBlock > .textBlock {
+      margin: auto;
+      margin-bottom: 40px;
+      max-width: 450px; }
+      /* line 140, ../sass/contactsBlock.sass */
+      .wrapper > article > .contactsBlock > .textBlock > .infoWrapper > .text {
+        font-size: 18px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0; }
+      /* line 144, ../sass/contactsBlock.sass */
+      .wrapper > article > .contactsBlock > .textBlock > .infoWrapper > .info {
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 7px; }
+    /* line 149, ../sass/contactsBlock.sass */
+    .wrapper > article > .contactsBlock > .contactsB {
+      margin-left: 0px; }
+      /* line 153, ../sass/contactsBlock.sass */
+      .wrapper > article > .contactsBlock > .contactsB > .title {
+        text-align: center; }
+      /* line 157, ../sass/contactsBlock.sass */
+      .wrapper > article > .contactsBlock > .contactsB > .phonesBlock {
+        margin: auto;
+        margin-top: 20px;
+        width: 250px; }
+        /* line 166, ../sass/contactsBlock.sass */
+        .wrapper > article > .contactsBlock > .contactsB > .phonesBlock > .phonesWrapper > .phone {
+          font-size: 20px;
+          font-weight: 700;
+          margin: 3px 0px 3px 7px; }
+      /* line 171, ../sass/contactsBlock.sass */
+      .wrapper > article > .contactsBlock > .contactsB > .skypeBtn {
+        margin: auto;
+        margin-top: 20px; }
+  /* line 175, ../sass/contactsBlock.sass */
+  .wrapper > article > .desc {
+    font-size: 16px;
+    margin-bottom: 70px; } }
 /* line 24, ../sass/all_styles.sass */
 .wrapper {
   min-width: 320px;

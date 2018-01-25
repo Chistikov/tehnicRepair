@@ -1,0 +1,181 @@
+@import "vars.sass"
+
+.wrapper
+	>article
+		>.contactsBlock
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			justify-content: center
+			margin-top: 110px
+			margin-bottom: 80px
+			padding-left: 20px
+			padding-right: 20px
+
+			>.textBlock
+				>.infoWrapper
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					margin-bottom: 22px
+					
+					>&:last-child
+							margin-bottom: 0px
+					
+					>.text
+						font-size: 20px
+						font-weight: 700
+						text-transform: uppercase
+						flex-shrink: 0
+
+					>.info
+						font-size: 18px
+						font-weight: 400
+						margin-left: 7px
+
+			>.contactsB
+				margin-left: 100px
+
+				>.title
+					font-size: 20px
+					font-weight: 700
+					text-transform: uppercase
+
+				>.phonesBlock
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					margin-top: 30px
+
+					>.phoneImg
+						width: 50px
+						height: 50px
+						background-color: $yellow
+						border-radius: 50%
+						background-image: url("../img/phoneInCircle.svg")
+						background-size: 38px
+						background-repeat: no-repeat
+						background-position: center
+
+					>.phonesWrapper
+						>.phone
+							font-size: 20px
+							font-weight: 700
+							margin: 3px 0px 3px 7px
+
+				>.skypeBtn
+					width: 172px
+					height: 50px
+					background-color: #369eff
+					border-radius: 25px
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: -webkit-box
+					display: -ms-flexbox
+					display: flex
+					color: #fff
+					margin-top: 20px
+
+					>.skypeImg
+						width: 50px
+						height: 50px
+						background-color: #178fff
+						flex-shrink: 0
+						border-radius: 50%
+						background-image: url(../img/skype-circular.svg)
+						background-size: 38px
+						background-repeat: no-repeat
+						background-position: center
+
+					>.text
+						display: block
+						padding-top: 9px
+						margin-left: 8px
+						font-size: 15px
+						font-weight: 300
+						color: #fff
+						user-select: none
+						cursor: pointer
+						text-decoration: none
+
+		>.desc
+			max-width: 800px
+			margin: auto
+			text-align: center
+			font-size: 18px
+			font-weight: 400
+			padding: 0px 20px
+			margin-bottom: 110px
+
+
+/**** MEDIA ****/
+
+@media screen and (max-width:1799px)  
+
+@media screen and (max-width:1249px)
+
+@media screen and (max-width:899px)
+
+@media screen and (max-width:799px)
+	.wrapper
+		>article
+			>.contactsBlock
+				margin-top: 70px
+				margin-bottom: 50px
+				flex-direction: column
+
+				>.textBlock
+					margin: auto
+					margin-bottom: 40px
+					max-width: 450px
+
+					>.infoWrapper						
+						>.text
+							font-size: 18px
+							flex-shrink: 0
+
+						>.info
+							font-size: 16px
+							font-weight: 400
+							margin-left: 7px
+
+				>.contactsB
+					margin-left: 0px
+
+
+					>.title
+						text-align: center
+
+
+					>.phonesBlock	
+						margin: auto					
+						margin-top: 20px
+						width: 250px
+
+
+						>.phoneImg
+
+						>.phonesWrapper
+							>.phone
+								font-size: 20px
+								font-weight: 700
+								margin: 3px 0px 3px 7px
+
+					>.skypeBtn
+						margin: auto
+						margin-top: 20px						
+
+			>.desc
+				font-size: 16px
+				margin-bottom: 70px
+
+@media screen and (max-width:767px)	
+
+@media screen and (max-width:479px)

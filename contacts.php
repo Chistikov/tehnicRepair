@@ -19,18 +19,41 @@
 		</header>	
 		<article>			
 				<div class="contactsBlock">
-					<div class="textBlock"></div>
+					<div class="textBlock">
+						<div class="infoWrapper">
+							<div class="text">время работы:</div>
+							<div class="info"><? echo $workTime; ?></div>
+						</div>
+						<div class="infoWrapper">
+							<div class="text">наш адрес:</div>
+							<div class="info"><? echo $address; ?></div>
+						</div>
+						<div class="infoWrapper">
+							<div class="text">наша почта:</div>
+							<div class="info"><? echo $mail; ?></div>
+						</div>
+						<div class="infoWrapper">
+							<div class="text">skype:</div>
+							<div class="info"><? echo $skypeLogin; ?></div>
+						</div>
+					</div>
 					<div class="contactsB">
 						<div class="title">наши телефоны:</div>
 						<div class="phonesBlock">
+							<div class="phoneImg"></div>
 							<div class="phonesWrapper">
 								<div class="phone"><? echo $phone1; ?></div>
 								<div class="phone"><? echo $phone2; ?></div>
 							</div>
 						</div>
-						<div class="skypeBtn"></div>
-					</div>
+						<div class="skypeBtn">
+							<div class="skypeImg"></div>
+							<div class="text">связаться с консультантом</div>
+						</div>
+					</div>					
 				</div>
+				<div class="desc">В большинстве случаев выезжаем на дом или офис к заказчику.
+При необходимости привести компьютер к нам в офис — согласовывайте заранее по телефону.</div>
 		</article>
 		<footer>
 			<? require_once "footerBlock.php" ?>	
