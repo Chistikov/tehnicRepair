@@ -1,0 +1,86 @@
+.wrapper
+	>article
+		.infoAboutCompanyBlock		
+			width: inherit
+			height: 370px
+			background-color: rgba(255, 207, 23, 1)
+			background-size: cover
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			position: relative
+
+			.textBlock
+				display: block
+				width: 880px
+				font-size: 18px
+				line-height: 21px
+				padding-right: 320px
+				margin: auto
+
+				p
+					.bold
+						font-weight: bold
+				
+			.imgBlock
+				position: absolute
+				width: 100%
+				height: inherit
+
+
+			img				
+				position: absolute
+				height: 453
+				width: 266px
+				bottom: 0
+				left: calc(50% + 334px)
+
+
+/**** MEDIA ****/
+
+@media screen and (max-width:1799px)  
+
+@media screen and (max-width:1249px)
+	.wrapper
+		>article
+			.infoAboutCompanyBlock		
+				height: auto
+				padding: 50px 0px
+
+				.textBlock
+					width: calc(100% - 100px)
+					padding-right: 0px
+					text-align: justify
+					
+				.imgBlock
+					display: none
+
+@media screen and (max-width:899px)
+	.wrapper
+		>article
+			.infoAboutCompanyBlock		
+				.textBlock
+					//width: 760px
+
+@media screen and (max-width:799px)
+
+@media screen and (max-width:767px)
+	.wrapper
+		>article
+			.infoAboutCompanyBlock
+				.textBlock
+					//width: 470px
+
+@media screen and (max-width:479px)
+	.wrapper
+		>article			
+			.infoAboutCompanyBlock
+				padding: 35px 0px
+				.textBlock
+					width: calc(100% - 50px)
+					font-size: 17px
+					line-height: 16px
+
+									

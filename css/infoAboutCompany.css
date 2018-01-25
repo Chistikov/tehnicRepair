@@ -1,0 +1,60 @@
+/* line 3, ../sass/infoAboutCompany.sass */
+.wrapper > article .infoAboutCompanyBlock {
+  width: inherit;
+  height: 370px;
+  background-color: #ffcf17;
+  background-size: cover;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+  /* line 15, ../sass/infoAboutCompany.sass */
+  .wrapper > article .infoAboutCompanyBlock .textBlock {
+    display: block;
+    width: 880px;
+    font-size: 18px;
+    line-height: 21px;
+    padding-right: 320px;
+    margin: auto; }
+    /* line 24, ../sass/infoAboutCompany.sass */
+    .wrapper > article .infoAboutCompanyBlock .textBlock p .bold {
+      font-weight: bold; }
+  /* line 27, ../sass/infoAboutCompany.sass */
+  .wrapper > article .infoAboutCompanyBlock .imgBlock {
+    position: absolute;
+    width: 100%;
+    height: inherit; }
+  /* line 33, ../sass/infoAboutCompany.sass */
+  .wrapper > article .infoAboutCompanyBlock img {
+    position: absolute;
+    height: 453;
+    width: 266px;
+    bottom: 0;
+    left: calc(50% + 334px); }
+
+/**** MEDIA *** */
+@media screen and (max-width: 1249px) {
+  /* line 48, ../sass/infoAboutCompany.sass */
+  .wrapper > article .infoAboutCompanyBlock {
+    height: auto;
+    padding: 50px 0px; }
+    /* line 52, ../sass/infoAboutCompany.sass */
+    .wrapper > article .infoAboutCompanyBlock .textBlock {
+      width: calc(100% - 100px);
+      padding-right: 0px;
+      text-align: justify; }
+    /* line 57, ../sass/infoAboutCompany.sass */
+    .wrapper > article .infoAboutCompanyBlock .imgBlock {
+      display: none; } }
+@media screen and (max-width: 479px) {
+  /* line 79, ../sass/infoAboutCompany.sass */
+  .wrapper > article .infoAboutCompanyBlock {
+    padding: 35px 0px; }
+    /* line 81, ../sass/infoAboutCompany.sass */
+    .wrapper > article .infoAboutCompanyBlock .textBlock {
+      width: calc(100% - 50px);
+      font-size: 17px;
+      line-height: 16px; } }

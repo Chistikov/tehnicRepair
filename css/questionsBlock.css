@@ -1,0 +1,327 @@
+/* line 5, ../sass/questionsBlock.sass */
+.wrapper > article > .questionsBlock {
+  background-color: #f6f6f6;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  /* line 11, ../sass/questionsBlock.sass */
+  .wrapper > article > .questionsBlock > .centerBlock {
+    max-width: 1025px;
+    margin: auto;
+    padding: 0px 20px; }
+    /* line 17, ../sass/questionsBlock.sass */
+    .wrapper > article > .questionsBlock > .centerBlock > .title {
+      width: 100%;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 50px; }
+    /* line 25, ../sass/questionsBlock.sass */
+    .wrapper > article > .questionsBlock > .centerBlock > .contWrapper {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      /* line 33, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper {
+        margin-bottom: 35px; }
+        /* line 36, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper:last-child {
+          margin-bottom: 0px; }
+        /* line 39, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper > .questionWrpr {
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          /* line 47, ../sass/questionsBlock.sass */
+          .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper > .questionWrpr > .questionBlock > .question {
+            font-size: 20px;
+            padding-right: 17px;
+            position: relative;
+            cursor: default; }
+            /* line 53, ../sass/questionsBlock.sass */
+            .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper > .questionWrpr > .questionBlock > .question > .QErrow {
+              position: absolute;
+              right: 0;
+              top: calc(50% - 3px);
+              width: 11px;
+              height: 7px;
+              background-image: url("../img/arrow_bottom.svg");
+              -webkit-transition: -webkit-transform 0.3s;
+              transition: -webkit-transform 0.3s;
+              transition: transform 0.3s;
+              transition: transform 0.3s, -webkit-transform 0.3s; }
+          /* line 62, ../sass/questionsBlock.sass */
+          .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper > .questionWrpr > .questionBlock > .line {
+            width: 100%;
+            height: 1px;
+            background-color: #ffcf17;
+            margin-top: 4px; }
+        /* line 68, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper > .answer {
+          font-size: 17px;
+          margin-top: 10px;
+          font-weight: 400;
+          color: #888; }
+      /* line 74, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .delimiter {
+        height: inherit;
+        width: 1px;
+        background-color: #e2e2e2;
+        margin: 0 75px 0px 75px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0; }
+      /* line 81, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper {
+        -ms-flex-preferred-size: 252px;
+            flex-basis: 252px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        /* line 91, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .textBlock {
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          margin-bottom: 23px; }
+          /* line 100, ../sass/questionsBlock.sass */
+          .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .textBlock > .title {
+            font-size: 20px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 20px; }
+          /* line 106, ../sass/questionsBlock.sass */
+          .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .textBlock > .text {
+            font-size: 16px;
+            font-weight: 400; }
+        /* line 110, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock {
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column; }
+          /* line 118, ../sass/questionsBlock.sass */
+          .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .phonesBlock {
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            margin-bottom: 20px; }
+            /* line 127, ../sass/questionsBlock.sass */
+            .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .phonesBlock > .img {
+              width: 50px;
+              height: 50px;
+              background-color: #ffcf17;
+              border-radius: 50%;
+              background-image: url("../img/phoneInCircle.svg");
+              background-size: 38px;
+              background-repeat: no-repeat;
+              background-position: center;
+              -ms-flex-negative: 0;
+                  flex-shrink: 0; }
+            /* line 138, ../sass/questionsBlock.sass */
+            .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .phonesBlock > .phonesWrapper {
+              display: -moz-flex;
+              display: -ms-flex;
+              display: -o-flex;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+                  -ms-flex-direction: column;
+                      flex-direction: column;
+              margin-left: 7px;
+              padding-top: 3px; }
+              /* line 148, ../sass/questionsBlock.sass */
+              .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .phonesBlock > .phonesWrapper > .phone {
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 2px; }
+                /* line 153, ../sass/questionsBlock.sass */
+                .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .phonesBlock > .phonesWrapper > .phone:last-child {
+                  margin-bottom: 0px; }
+          /* line 156, ../sass/questionsBlock.sass */
+          .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .skypeBtn {
+            width: 172px;
+            height: 50px;
+            background-color: #369eff;
+            border-radius: 25px;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex; }
+            /* line 167, ../sass/questionsBlock.sass */
+            .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .skypeBtn > .skypeLogo {
+              width: 50px;
+              height: 50px;
+              background-color: #178fff;
+              -ms-flex-negative: 0;
+                  flex-shrink: 0;
+              border-radius: 50%;
+              background-image: url("../img/skype-circular.svg");
+              background-size: 38px;
+              background-repeat: no-repeat;
+              background-position: center; }
+            /* line 178, ../sass/questionsBlock.sass */
+            .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .skypeBtn > .text {
+              padding-top: 9px;
+              margin-left: 8px;
+              font-size: 15px;
+              font-weight: 300;
+              color: #fff;
+              -webkit-user-select: none;
+                 -moz-user-select: none;
+                  -ms-user-select: none;
+                      user-select: none;
+              cursor: pointer; }
+
+/**** MEDIA *** */
+@media screen and (max-width: 899px) {
+  /* line 204, ../sass/questionsBlock.sass */
+  .wrapper > article > .questionsBlock > .centerBlock > .contWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    /* line 207, ../sass/questionsBlock.sass */
+    .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper {
+      margin-top: 80px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-preferred-size: auto;
+          flex-basis: auto; }
+      /* line 213, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .textBlock {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-bottom: 23px; }
+      /* line 217, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock {
+        margin-left: 30px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0; } }
+@media screen and (max-width: 799px) {
+  /* line 228, ../sass/questionsBlock.sass */
+  .wrapper > article > .questionsBlock > .centerBlock > .title {
+    margin-bottom: 30px; } }
+@media screen and (max-width: 619px) {
+  /* line 238, ../sass/questionsBlock.sass */
+  .wrapper > article > .questionsBlock > .centerBlock > .contWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    /* line 243, ../sass/questionsBlock.sass */
+    .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper > .answer {
+      text-align: justify; }
+    /* line 247, ../sass/questionsBlock.sass */
+    .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper {
+      margin-top: 80px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      /* line 251, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .textBlock {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-bottom: 23px; }
+        /* line 255, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .textBlock > .title {
+          text-align: center; }
+        /* line 258, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .textBlock > .text {
+          text-align: justify; }
+      /* line 261, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock {
+        margin-left: 0px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        /* line 268, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .phonesBlock {
+          margin-bottom: 0px; }
+        /* line 271, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .skypeBtn {
+          margin-left: 30px; } }
+@media screen and (max-width: 508px) {
+  /* line 280, ../sass/questionsBlock.sass */
+  .wrapper > article > .questionsBlock > .centerBlock > .title {
+    margin-bottom: 30px; }
+  /* line 283, ../sass/questionsBlock.sass */
+  .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper {
+    margin-top: 90px; }
+    /* line 286, ../sass/questionsBlock.sass */
+    .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock {
+      margin-left: 0px;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      /* line 293, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .phonesBlock {
+        margin: auto;
+        margin-bottom: 20px; }
+      /* line 297, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .skypeBtn {
+        margin: auto; } }

@@ -1,0 +1,1 @@
+<a href="skype:<? echo $skypeLogin; ?>?call" class="skypeBtnFromSkype"></a>

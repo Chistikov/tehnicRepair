@@ -1,0 +1,80 @@
+/* line 5, ../sass/ourGuarantees.sass */
+.wrapper > article > .ourGuaranteesBlock {
+  padding-top: 70px;
+  padding-bottom: 110px; }
+  /* line 9, ../sass/ourGuarantees.sass */
+  .wrapper > article > .ourGuaranteesBlock > .title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px; }
+  /* line 17, ../sass/ourGuarantees.sass */
+  .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper {
+    max-width: 750px;
+    margin: auto;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    /* line 27, ../sass/ourGuarantees.sass */
+    .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper > .guaranteeWrapper {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0px auto 22px auto;
+      font-weight: wrap;
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1; }
+      /* line 37, ../sass/ourGuarantees.sass */
+      .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper > .guaranteeWrapper:last-child {
+        margin-bottom: 0; }
+      /* line 40, ../sass/ourGuarantees.sass */
+      .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper > .guaranteeWrapper > .angel {
+        width: 30px;
+        height: 23px;
+        margin-right: 16px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        background-image: url("../img/yellowArrow.svg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      /* line 49, ../sass/ourGuarantees.sass */
+      .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper > .guaranteeWrapper > .text {
+        padding-top: 2px;
+        font-size: 20px;
+        line-height: 20px; }
+
+/**** MEDIA *** */
+@media screen and (max-width: 799px) {
+  /* line 67, ../sass/ourGuarantees.sass */
+  .wrapper > article > .ourGuaranteesBlock {
+    padding-bottom: 50px;
+    padding-top: 50px; }
+    /* line 70, ../sass/ourGuarantees.sass */
+    .wrapper > article > .ourGuaranteesBlock > .title {
+      margin-bottom: 30px; }
+    /* line 72, ../sass/ourGuarantees.sass */
+    .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper {
+      padding: 0px 20px; }
+      /* line 74, ../sass/ourGuarantees.sass */
+      .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper > .guaranteeWrapper {
+        margin-bottom: 12px; }
+        /* line 76, ../sass/ourGuarantees.sass */
+        .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper > .guaranteeWrapper > .angel {
+          width: calc(40px * 0.7);
+          height: calc(30px * 0.7);
+          margin-right: 13px; }
+        /* line 81, ../sass/ourGuarantees.sass */
+        .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper > .guaranteeWrapper > .text {
+          font-size: 17px;
+          line-height: 17px; } }

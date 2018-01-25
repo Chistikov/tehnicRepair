@@ -1,0 +1,625 @@
+.wrapper
+
+	>header
+		width: 100%
+
+		>.darkBk
+			position: fixed
+			top: 0
+			left: 0
+			width: 100%
+			height: 100vh
+			background-color: rgba(0,0,0,.55)
+			z-index: 10
+			transition: background-color .5s
+			display: none
+			overflow: hidden
+			//overflow-y: scroll
+
+			>.menu
+				position: fixed
+				top: 0
+				left: 0px
+				width: 300px				
+				height: 100%
+				background-color: #FFF
+				box-sizing: border-box
+				padding: 0px 20px
+				transition: left .5s
+				//height: auto				
+
+				>.arrowLeft
+					position: absolute
+					top: 40px
+					left: 15px
+					width: 35px
+					height: 35px
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+
+					>img
+						width: 8px
+						height: 16px
+						margin: auto
+
+				>.logoWrapper
+					margin: auto
+					width: 80px
+					height: 33px
+					padding-top: 40px
+					margin-bottom: 55px
+
+					>img
+						height: inherit
+						width: inherit
+						margin: auto
+
+				>ul					
+					>li
+						display: block
+						height: auto
+						font-size: 15px
+						line-height: 15px
+						font-weight: 500
+						text-decoration: none										
+						text-indent: 0px
+						color: #333
+						text-transform: lowercase
+						border-bottom: 1px solid #EDEDED
+						padding: 12px 0px 12px 10px
+
+						>a
+							display: block
+							height: auto
+							font-size: 15px
+							line-height: 15px
+							font-weight: 500
+							text-decoration: none										
+							text-indent: 0px
+							color: #333
+							text-transform: lowercase
+
+						>.serviceList
+							max-height:  calc(100vh - 340px) //
+							max-height:  auto
+							overflow-x: hidden
+							text-indent: 14px
+							margin-top: 10px
+
+							&::-webkit-scrollbar
+								width: 0
+							& 
+								-ms-overflow-style: none							
+							&
+								overflow: -moz-scrollbars-none
+
+							>ul
+								>a
+									display: block
+									height: auto
+									font-size: 16px
+									line-height: 15px
+									font-weight: 400
+									text-decoration: none										
+									text-indent: 0px
+									color: #333
+									text-transform: lowercase
+									padding: 10px 0px 10px 13px
+									position: relative
+
+									&:before
+										content: " "
+										position: absolute
+										top: calc(50% - 4px)
+										left: 0px
+										width: 6px
+										height: 6px
+										border-radius: 50%
+										background-color: #facc0e
+
+				>.phonesBlock
+					position: absolute
+					bottom: 30px
+					left: calc(50% - 79px)
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					width: 158px
+					height: 31px
+					margin: auto
+
+					>.phoneImg
+						width: 25px
+						height: 25px
+						margin-top: 2px
+						flex-shrink: 0
+						margin-right: 10px
+						background-image: url("../img/phoneInCircle.svg")
+
+					>.phonesWrapper
+						display: -webkit-flex
+						display: -moz-flex
+						display: -ms-flex
+						display: -o-flex
+						display: flex
+						flex-diraction: column
+						flex-wrap: wrap
+
+						>.phone
+							display: block
+							font-size: 14px
+							font-weight: bold
+							height: 14px
+							margin-bottom: -50px
+
+
+		>.navBlock
+			width: 100%
+			height: 120px
+			background-color: #fdfdfd
+
+			>.menuIco
+				position: absolute
+				width: 64px
+				height: 64px				
+				top: 0
+				left: 0
+				display: none
+				
+				>img
+					width: 20px
+					margin: auto
+
+			>.centerPos
+				display: -webkit-flex
+				display: -moz-flex
+				display: -ms-flex
+				display: -o-flex
+				display: flex
+				width: 1200px
+				height: inherit
+				margin: auto
+				justify-content: space-between
+
+				>.logoAndMenuWrapper
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+				
+					>.logo
+						padding-top: 38px
+						margin-right: 61px
+
+						>a
+							display: block							
+							width: 113px
+							height: 45px
+							background-image: url("../img/logo.png")
+							background-repeat: no-repeat
+							background-position: 0 100%
+
+					
+					>.navMenu
+						display: -webkit-flex
+						display: -moz-flex
+						display: -ms-flex
+						display: -o-flex
+						display: flex
+
+						>.btnWrapper
+							padding-top: 42px
+
+							>.btn
+								padding: 10px 14px					
+								display: inline-block
+								font-size: 16px
+								font-weight: 400
+								text-transform: uppercase
+								color: #222
+								text-decoration: none
+								position: relative
+								cursor: pointer
+								margin: 0px 9px 0px 0px
+
+								>.servicesBlock
+									width: 335px
+									height: auto
+									position: absolute
+									top: 38px
+									left: calc(52px - 167px)
+									padding-top: 55px
+									display: none
+									z-index: 5									
+
+									>.triangle
+										position: absolute
+										top: 40px
+										left: calc((100% / 2) - 10px)
+										display: inline-block
+										width: 0px
+										height: 0px
+										border-bottom: 15px solid white
+										border-left: 10px solid transparent
+										border-right: 10px solid transparent
+										margin: auto
+
+									>.servicesWrapper
+										box-sizing: border-box
+										width: inherit
+										position: relative
+										height: calc(100%)
+										background-color: #fdfdfd
+										border-radius: 4px
+										padding: 20px 15px
+
+										>.service								
+											display: block
+											height: auto
+											font-size: 18px
+											line-height: 18px
+											font-weight: 400
+											text-decoration: none										
+											text-indent: 0px
+											color: #333
+											text-transform: lowercase
+											border-bottom: 1px solid #EDEDED
+											padding: 12px 10px
+
+											&:last-child
+												border-bottom: 0px solid #EDEDED
+
+								&:hover
+									.servicesBlock										
+										display: block	
+					
+				>.phonesBlock				
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					float: right
+					width: 221px
+					height: 42px
+					padding-top: 39px
+
+					>.phoneImg
+						width: 37px
+						height: 37px
+						margin-top: 3px
+						flex-shrink: 0
+						margin-right: 13px
+						background-image: url("../img/phoneInCircle.svg")
+
+					>.phonesWrapper
+						display: -webkit-flex
+						display: -moz-flex
+						display: -ms-flex
+						display: -o-flex
+						display: flex
+						flex-diraction: column
+						flex-wrap: wrap
+
+						>.phone
+							display: block
+							font-size: 20px
+							font-weight: bold
+
+		>.headerBlock
+			height: 430px
+			width: 100%
+			background-color: #fed521
+			overflow: hidden			
+			position: relative
+			
+			>.bgImg
+				position: absolute
+				top: calc(50% - 5000px)
+				left: calc(50% - 5000px)
+				width: 10000px
+				height: 10000px
+				background-image: url("../img/bg.png")
+				background-size: 1000px
+				background-position: -100% -100%
+				transform-origin: 50% 50%
+				transform: rotate(-3deg)
+				opacity: .6
+
+			>.gradient
+				width: inherit
+				height: inherit
+				background: -moz-radial-gradient(center, ellipse cover, rgba(125,185,232,0) 0%, rgba(250,204,14,1) 100%)
+				background: -webkit-radial-gradient(center, ellipse cover, rgba(125,185,232,0) 0%,rgba(250,204,14,1) 100%)
+				background: radial-gradient(ellipse at center, rgba(125,185,232,0) 0%,rgba(250,204,14,1) 100%)
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#facc0e',GradientType=1 )
+				
+			>.cont
+				position: absolute
+				width: inherit
+				height: inherit
+				top: 0
+				left: 0
+				display: -webkit-flex
+				display: -moz-flex
+				display: -ms-flex
+				display: -o-flex
+				display: flex		
+
+				>.centerBlock
+					margin: auto
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+
+					>.textBlock
+						width: 646px
+						margin-right: 130px				
+
+						>.title
+							display: block
+							font-size: 40px
+							font-weight: bold
+							line-height: 40px
+							text-transform: uppercase
+							margin-bottom: 30px
+
+						>.subTitle
+							display: block
+							width: inherit
+							font-size: 20px
+							font-weight: 400
+							line-height: 20px
+
+					>.eventsWrapper
+						>.eventBlock
+							box-sizing: border-box
+							width: 235px
+							background-color: #fdfdfd
+							border-radius: 7px
+							padding: 24px 23px
+							border-bottom: solid 4px #e2e2e2 
+							margin-bottom: 6px
+							display: -webkit-flex
+							display: -moz-flex
+							display: -ms-flex
+							display: -o-flex
+							display: flex
+
+							>.discount
+								display: block
+								font-size: 37px
+								font-weight: bold
+								line-height: 37px
+								color: #26a3dd
+								margin-right: 10px
+
+							>.descr
+								display: inline-block
+								font-size: 18px
+								font-weight: bold
+								line-height: 17px
+
+							&:nth-child(2n)								
+								.discount
+									color: #be2aa1
+
+				>.arrow
+					position: absolute
+					bottom: 35px
+					left: calc(50% - 8px)
+					width: 16px
+					height: 15px
+					display: none
+						
+
+
+
+/**** MEDIA ****/
+
+@media screen and (max-width:1799px)
+  
+
+@media screen and (max-width:1249px)
+
+	.wrapper	
+		>header	
+			>.navBlock	
+				>.centerPos				
+					width: calc(100% - 60px)
+
+			>.headerBlock
+				>.cont
+					>.centerBlock		
+						>.textBlock
+							width: 646px
+							margin-right: 50px
+
+	
+					
+@media screen and (max-width: 1199px)
+
+@media screen and (max-width: 1000px)
+	.wrapper	
+		>header						
+			>.headerBlock
+				height: 530px	
+
+				>.cont								
+					>.centerBlock					
+						flex-direction: column
+						padding-bottom: 20px								
+
+						>.textBlock
+							width: 646px
+							margin-right: 0px				
+
+							>.title
+								text-align: center
+
+							>.subTitle
+								text-align: justify
+
+						>.eventsWrapper
+							display: -webkit-flex
+							display: -moz-flex
+							display: -ms-flex
+							display: -o-flex
+							display: flex
+							flex-direction: row
+							justify-content: center
+							margin-top: 50px						
+
+							>.eventBlock
+								margin-bottom: 0px
+								margin: 0px 4px		
+
+					>.arrow	
+						display: block					
+
+					  
+
+@media screen and (max-width:899px)
+
+	.wrapper	
+		>header	
+			>.navBlock	
+				>.centerPos
+					>.logoAndMenuWrapper					
+						>.logo
+							margin-right: 35px
+	
+
+@media screen and (max-width:799px)
+
+	.wrapper
+		>header
+			>.navBlock
+				height: 65px
+				position: relative
+
+				>.menuIco
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+
+				>.centerPos
+					width: auto
+					justify-content: space-between					
+
+					>.logoAndMenuWrapper
+						margin: 0px auto
+					
+						>.logo
+							padding-top: 15px
+							margin-right: 0px
+
+							>a					
+								width: 80px
+								height: 33px
+								background-image: url("../img/logo.png")
+								background-size: 80px 33px
+								background-repeat: no-repeat
+								background-position: 0 100%
+						
+						>.navMenu
+							display: none	
+						
+					>.phonesBlock				
+						display: none
+
+			>.headerBlock
+				height: 430px	
+
+				>.cont								
+					>.centerBlock		
+						width: 450px				
+						>.textBlock
+							width: inherit						
+
+							>.title
+								font-size: 30px
+								line-height: 30px
+
+							>.subTitle
+								font-size: 17px
+								line-height: 17px
+								ьи
+
+						>.eventsWrapper							
+							margin-top: 35px
+							>.eventBlock
+								width: 235px
+								padding: 19px 17px
+								margin-bottom: 0px
+
+								>.discount
+									font-size: 30px
+									line-height: 30px
+									margin-right: 8px
+
+								>.descr
+									font-size: 16px
+									line-height: 16px								
+
+
+			
+
+
+@media screen and (max-width:767px)
+	
+
+@media screen and (max-width:479px)
+	.wrapper
+		>header			
+
+			>.headerBlock
+				height: 450px	
+
+				>.cont								
+					>.centerBlock		
+						width: 282px
+						padding-bottom: 0px
+
+						>.textBlock
+							margin-bottom: 46px	
+
+							>.title
+								font-size: 19px
+								line-height: 19px
+								margin-bottom: 31px
+
+							>.subTitle
+								font-size: 16px
+								line-height: 18px
+
+						>.eventsWrapper
+							margin-top: 0px					
+
+							>.eventBlock
+								width: 134px
+								padding: 14px 14px
+								margin: 0px auto 6px auto								
+
+								>.discount
+									font-size: 20px
+									line-height: 20px
+									margin-right: 5px
+
+								>.descr
+									font-size: 11px
+									line-height: 10px
+
+					>.arrow	
+						bottom: 27px	
+

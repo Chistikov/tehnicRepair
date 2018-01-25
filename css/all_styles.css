@@ -1,0 +1,1909 @@
+@import url(css_reset.css);
+/* line 3, ../sass/headerAndMenu.sass */
+.wrapper > header {
+  width: 100%; }
+  /* line 6, ../sass/headerAndMenu.sass */
+  .wrapper > header > .darkBk {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 10;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    display: none;
+    overflow: hidden; }
+    /* line 19, ../sass/headerAndMenu.sass */
+    .wrapper > header > .darkBk > .menu {
+      position: fixed;
+      top: 0;
+      left: 0px;
+      width: 300px;
+      height: 100%;
+      background-color: #FFF;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding: 0px 20px;
+      -webkit-transition: left 0.5s;
+      transition: left 0.5s; }
+      /* line 31, ../sass/headerAndMenu.sass */
+      .wrapper > header > .darkBk > .menu > .arrowLeft {
+        position: absolute;
+        top: 40px;
+        left: 15px;
+        width: 35px;
+        height: 35px;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        /* line 43, ../sass/headerAndMenu.sass */
+        .wrapper > header > .darkBk > .menu > .arrowLeft > img {
+          width: 8px;
+          height: 16px;
+          margin: auto; }
+      /* line 48, ../sass/headerAndMenu.sass */
+      .wrapper > header > .darkBk > .menu > .logoWrapper {
+        margin: auto;
+        width: 80px;
+        height: 33px;
+        padding-top: 40px;
+        margin-bottom: 55px; }
+        /* line 55, ../sass/headerAndMenu.sass */
+        .wrapper > header > .darkBk > .menu > .logoWrapper > img {
+          height: inherit;
+          width: inherit;
+          margin: auto; }
+      /* line 61, ../sass/headerAndMenu.sass */
+      .wrapper > header > .darkBk > .menu > ul > li {
+        display: block;
+        height: auto;
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 500;
+        text-decoration: none;
+        text-indent: 0px;
+        color: #333;
+        text-transform: lowercase;
+        border-bottom: 1px solid #EDEDED;
+        padding: 12px 0px 12px 10px; }
+        /* line 74, ../sass/headerAndMenu.sass */
+        .wrapper > header > .darkBk > .menu > ul > li > a {
+          display: block;
+          height: auto;
+          font-size: 15px;
+          line-height: 15px;
+          font-weight: 500;
+          text-decoration: none;
+          text-indent: 0px;
+          color: #333;
+          text-transform: lowercase; }
+        /* line 85, ../sass/headerAndMenu.sass */
+        .wrapper > header > .darkBk > .menu > ul > li > .serviceList {
+          max-height: calc(100vh - 340px);
+          max-height: auto;
+          overflow-x: hidden;
+          text-indent: 14px;
+          margin-top: 10px; }
+          /* line 92, ../sass/headerAndMenu.sass */
+          .wrapper > header > .darkBk > .menu > ul > li > .serviceList::-webkit-scrollbar {
+            width: 0; }
+          /* line 94, ../sass/headerAndMenu.sass */
+          .wrapper > header > .darkBk > .menu > ul > li > .serviceList {
+            -ms-overflow-style: none; }
+          /* line 96, ../sass/headerAndMenu.sass */
+          .wrapper > header > .darkBk > .menu > ul > li > .serviceList {
+            overflow: -moz-scrollbars-none; }
+          /* line 100, ../sass/headerAndMenu.sass */
+          .wrapper > header > .darkBk > .menu > ul > li > .serviceList > ul > a {
+            display: block;
+            height: auto;
+            font-size: 16px;
+            line-height: 15px;
+            font-weight: 400;
+            text-decoration: none;
+            text-indent: 0px;
+            color: #333;
+            text-transform: lowercase;
+            padding: 10px 0px 10px 13px;
+            position: relative; }
+            /* line 113, ../sass/headerAndMenu.sass */
+            .wrapper > header > .darkBk > .menu > ul > li > .serviceList > ul > a:before {
+              content: " ";
+              position: absolute;
+              top: calc(50% - 4px);
+              left: 0px;
+              width: 6px;
+              height: 6px;
+              border-radius: 50%;
+              background-color: #facc0e; }
+      /* line 123, ../sass/headerAndMenu.sass */
+      .wrapper > header > .darkBk > .menu > .phonesBlock {
+        position: absolute;
+        bottom: 30px;
+        left: calc(50% - 79px);
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 158px;
+        height: 31px;
+        margin: auto; }
+        /* line 136, ../sass/headerAndMenu.sass */
+        .wrapper > header > .darkBk > .menu > .phonesBlock > .phoneImg {
+          width: 25px;
+          height: 25px;
+          margin-top: 2px;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+          margin-right: 10px;
+          background-image: url("../img/phoneInCircle.svg"); }
+        /* line 144, ../sass/headerAndMenu.sass */
+        .wrapper > header > .darkBk > .menu > .phonesBlock > .phonesWrapper {
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          flex-diraction: column;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+          /* line 153, ../sass/headerAndMenu.sass */
+          .wrapper > header > .darkBk > .menu > .phonesBlock > .phonesWrapper > .phone {
+            display: block;
+            font-size: 14px;
+            font-weight: bold;
+            height: 14px;
+            margin-bottom: -50px; }
+  /* line 161, ../sass/headerAndMenu.sass */
+  .wrapper > header > .navBlock {
+    width: 100%;
+    height: 120px;
+    background-color: #fdfdfd; }
+    /* line 166, ../sass/headerAndMenu.sass */
+    .wrapper > header > .navBlock > .menuIco {
+      position: absolute;
+      width: 64px;
+      height: 64px;
+      top: 0;
+      left: 0;
+      display: none; }
+      /* line 174, ../sass/headerAndMenu.sass */
+      .wrapper > header > .navBlock > .menuIco > img {
+        width: 20px;
+        margin: auto; }
+    /* line 178, ../sass/headerAndMenu.sass */
+    .wrapper > header > .navBlock > .centerPos {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 1200px;
+      height: inherit;
+      margin: auto;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      /* line 189, ../sass/headerAndMenu.sass */
+      .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper {
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        /* line 196, ../sass/headerAndMenu.sass */
+        .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .logo {
+          padding-top: 38px;
+          margin-right: 61px; }
+          /* line 200, ../sass/headerAndMenu.sass */
+          .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .logo > a {
+            display: block;
+            width: 113px;
+            height: 45px;
+            background-image: url("../img/logo.png");
+            background-repeat: no-repeat;
+            background-position: 0 100%; }
+        /* line 209, ../sass/headerAndMenu.sass */
+        .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu {
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          /* line 216, ../sass/headerAndMenu.sass */
+          .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper {
+            padding-top: 42px; }
+            /* line 219, ../sass/headerAndMenu.sass */
+            .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper > .btn {
+              padding: 10px 14px;
+              display: inline-block;
+              font-size: 16px;
+              font-weight: 400;
+              text-transform: uppercase;
+              color: #222;
+              text-decoration: none;
+              position: relative;
+              cursor: pointer;
+              margin: 0px 9px 0px 0px; }
+              /* line 231, ../sass/headerAndMenu.sass */
+              .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper > .btn > .servicesBlock {
+                width: 335px;
+                height: auto;
+                position: absolute;
+                top: 38px;
+                left: calc(52px - 167px);
+                padding-top: 55px;
+                display: none;
+                z-index: 5; }
+                /* line 241, ../sass/headerAndMenu.sass */
+                .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper > .btn > .servicesBlock > .triangle {
+                  position: absolute;
+                  top: 40px;
+                  left: calc((100% / 2) - 10px);
+                  display: inline-block;
+                  width: 0px;
+                  height: 0px;
+                  border-bottom: 15px solid white;
+                  border-left: 10px solid transparent;
+                  border-right: 10px solid transparent;
+                  margin: auto; }
+                /* line 253, ../sass/headerAndMenu.sass */
+                .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper > .btn > .servicesBlock > .servicesWrapper {
+                  -webkit-box-sizing: border-box;
+                          box-sizing: border-box;
+                  width: inherit;
+                  position: relative;
+                  height: calc(100%);
+                  background-color: #fdfdfd;
+                  border-radius: 4px;
+                  padding: 20px 15px; }
+                  /* line 262, ../sass/headerAndMenu.sass */
+                  .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper > .btn > .servicesBlock > .servicesWrapper > .service {
+                    display: block;
+                    height: auto;
+                    font-size: 18px;
+                    line-height: 18px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    text-indent: 0px;
+                    color: #333;
+                    text-transform: lowercase;
+                    border-bottom: 1px solid #EDEDED;
+                    padding: 12px 10px; }
+                    /* line 275, ../sass/headerAndMenu.sass */
+                    .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper > .btn > .servicesBlock > .servicesWrapper > .service:last-child {
+                      border-bottom: 0px solid #EDEDED; }
+              /* line 279, ../sass/headerAndMenu.sass */
+              .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper > .btn:hover .servicesBlock {
+                display: block; }
+      /* line 282, ../sass/headerAndMenu.sass */
+      .wrapper > header > .navBlock > .centerPos > .phonesBlock {
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        float: right;
+        width: 221px;
+        height: 42px;
+        padding-top: 39px; }
+        /* line 293, ../sass/headerAndMenu.sass */
+        .wrapper > header > .navBlock > .centerPos > .phonesBlock > .phoneImg {
+          width: 37px;
+          height: 37px;
+          margin-top: 3px;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+          margin-right: 13px;
+          background-image: url("../img/phoneInCircle.svg"); }
+        /* line 301, ../sass/headerAndMenu.sass */
+        .wrapper > header > .navBlock > .centerPos > .phonesBlock > .phonesWrapper {
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          flex-diraction: column;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+          /* line 310, ../sass/headerAndMenu.sass */
+          .wrapper > header > .navBlock > .centerPos > .phonesBlock > .phonesWrapper > .phone {
+            display: block;
+            font-size: 20px;
+            font-weight: bold; }
+  /* line 315, ../sass/headerAndMenu.sass */
+  .wrapper > header > .headerBlock {
+    height: 430px;
+    width: 100%;
+    background-color: #fed521;
+    overflow: hidden;
+    position: relative; }
+    /* line 322, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .bgImg {
+      position: absolute;
+      top: calc(50% - 5000px);
+      left: calc(50% - 5000px);
+      width: 10000px;
+      height: 10000px;
+      background-image: url("../img/bg.png");
+      background-size: 1000px;
+      background-position: -100% -100%;
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-transform: rotate(-3deg);
+              transform: rotate(-3deg);
+      opacity: 0.6; }
+    /* line 335, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .gradient {
+      width: inherit;
+      height: inherit;
+      background: radial-gradient(ellipse at center, rgba(125, 185, 232, 0) 0%, #facc0e 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#facc0e',GradientType=1 ); }
+    /* line 343, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .cont {
+      position: absolute;
+      width: inherit;
+      height: inherit;
+      top: 0;
+      left: 0;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      /* line 355, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .centerBlock {
+        margin: auto;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        /* line 363, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock {
+          width: 646px;
+          margin-right: 130px; }
+          /* line 367, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .title {
+            display: block;
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 40px;
+            text-transform: uppercase;
+            margin-bottom: 30px; }
+          /* line 375, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .subTitle {
+            display: block;
+            width: inherit;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 20px; }
+        /* line 383, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock {
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          width: 235px;
+          background-color: #fdfdfd;
+          border-radius: 7px;
+          padding: 24px 23px;
+          border-bottom: solid 4px #e2e2e2;
+          margin-bottom: 6px;
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          /* line 397, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock > .discount {
+            display: block;
+            font-size: 37px;
+            font-weight: bold;
+            line-height: 37px;
+            color: #26a3dd;
+            margin-right: 10px; }
+          /* line 405, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock > .descr {
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 17px; }
+          /* line 412, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock:nth-child(2n) .discount {
+            color: #be2aa1; }
+      /* line 415, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .arrow {
+        position: absolute;
+        bottom: 35px;
+        left: calc(50% - 8px);
+        width: 16px;
+        height: 15px;
+        display: none; }
+
+/**** MEDIA *** */
+@media screen and (max-width: 1249px) {
+  /* line 436, ../sass/headerAndMenu.sass */
+  .wrapper > header > .navBlock > .centerPos {
+    width: calc(100% - 60px); }
+  /* line 442, ../sass/headerAndMenu.sass */
+  .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock {
+    width: 646px;
+    margin-right: 50px; } }
+@media screen and (max-width: 1000px) {
+  /* line 453, ../sass/headerAndMenu.sass */
+  .wrapper > header > .headerBlock {
+    height: 530px; }
+    /* line 457, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .cont > .centerBlock {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding-bottom: 20px; }
+      /* line 461, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock {
+        width: 646px;
+        margin-right: 0px; }
+        /* line 465, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .title {
+          text-align: center; }
+        /* line 468, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .subTitle {
+          text-align: justify; }
+      /* line 471, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper {
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 50px; }
+        /* line 481, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock {
+          margin-bottom: 0px;
+          margin: 0px 4px; }
+    /* line 485, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .cont > .arrow {
+      display: block; } }
+@media screen and (max-width: 899px) {
+  /* line 497, ../sass/headerAndMenu.sass */
+  .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .logo {
+    margin-right: 35px; } }
+@media screen and (max-width: 799px) {
+  /* line 505, ../sass/headerAndMenu.sass */
+  .wrapper > header > .navBlock {
+    height: 65px;
+    position: relative; }
+    /* line 509, ../sass/headerAndMenu.sass */
+    .wrapper > header > .navBlock > .menuIco {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    /* line 516, ../sass/headerAndMenu.sass */
+    .wrapper > header > .navBlock > .centerPos {
+      width: auto;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      /* line 520, ../sass/headerAndMenu.sass */
+      .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper {
+        margin: 0px auto; }
+        /* line 523, ../sass/headerAndMenu.sass */
+        .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .logo {
+          padding-top: 15px;
+          margin-right: 0px; }
+          /* line 527, ../sass/headerAndMenu.sass */
+          .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .logo > a {
+            width: 80px;
+            height: 33px;
+            background-image: url("../img/logo.png");
+            background-size: 80px 33px;
+            background-repeat: no-repeat;
+            background-position: 0 100%; }
+        /* line 535, ../sass/headerAndMenu.sass */
+        .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu {
+          display: none; }
+      /* line 538, ../sass/headerAndMenu.sass */
+      .wrapper > header > .navBlock > .centerPos > .phonesBlock {
+        display: none; }
+  /* line 541, ../sass/headerAndMenu.sass */
+  .wrapper > header > .headerBlock {
+    height: 430px; }
+    /* line 545, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .cont > .centerBlock {
+      width: 450px; }
+      /* line 547, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock {
+        width: inherit; }
+        /* line 550, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .title {
+          font-size: 30px;
+          line-height: 30px; }
+        /* line 554, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .subTitle {
+          font-size: 17px;
+          line-height: 17px; }
+      /* line 559, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper {
+        margin-top: 35px; }
+        /* line 561, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock {
+          width: 235px;
+          padding: 19px 17px;
+          margin-bottom: 0px; }
+          /* line 566, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock > .discount {
+            font-size: 30px;
+            line-height: 30px;
+            margin-right: 8px; }
+          /* line 571, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock > .descr {
+            font-size: 16px;
+            line-height: 16px; } }
+@media screen and (max-width: 479px) {
+  /* line 586, ../sass/headerAndMenu.sass */
+  .wrapper > header > .headerBlock {
+    height: 450px; }
+    /* line 590, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .cont > .centerBlock {
+      width: 282px;
+      padding-bottom: 0px; }
+      /* line 594, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock {
+        margin-bottom: 46px; }
+        /* line 597, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .title {
+          font-size: 19px;
+          line-height: 19px;
+          margin-bottom: 31px; }
+        /* line 602, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .subTitle {
+          font-size: 16px;
+          line-height: 18px; }
+      /* line 606, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper {
+        margin-top: 0px; }
+        /* line 609, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock {
+          width: 134px;
+          padding: 14px 14px;
+          margin: 0px auto 6px auto; }
+          /* line 614, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock > .discount {
+            font-size: 20px;
+            line-height: 20px;
+            margin-right: 5px; }
+          /* line 619, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock > .descr {
+            font-size: 11px;
+            line-height: 10px; }
+    /* line 623, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .cont > .arrow {
+      bottom: 27px; } }
+/* line 2, ../sass/ourServices.sass */
+.wrapper > article {
+  background-color: #fdfdfd; }
+  /* line 4, ../sass/ourServices.sass */
+  .wrapper > article > .centerBlock {
+    width: 1250px;
+    margin: auto;
+    margin-bottom: 40px;
+    overflow: hidden; }
+    /* line 10, ../sass/ourServices.sass */
+    .wrapper > article > .centerBlock > .title {
+      width: inherit;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 70px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 50px; }
+    /* line 19, ../sass/ourServices.sass */
+    .wrapper > article > .centerBlock > .servicesWrapper {
+      width: 100%;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      /* line 30, ../sass/ourServices.sass */
+      .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock {
+        width: 250px;
+        height: 340px;
+        margin: 0px 30px 70px;
+        position: relative; }
+        /* line 36, ../sass/ourServices.sass */
+        .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .imgWrapper {
+          width: 104px;
+          height: 104px;
+          border-radius: 50%;
+          margin: 0px auto 25px;
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          background-color: #f3f3f3;
+          background-size: 65px 65px;
+          background-repeat: no-repeat;
+          background-position: center; }
+        /* line 52, ../sass/ourServices.sass */
+        .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .title {
+          font-size: 16px;
+          font-weight: 500;
+          text-align: center;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+          line-height: 16px; }
+        /* line 60, ../sass/ourServices.sass */
+        .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .text {
+          font-size: 16px;
+          font-weight: 400;
+          text-align: center;
+          line-height: 18px;
+          margin-bottom: 26px;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        /* line 69, ../sass/ourServices.sass */
+        .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .btn {
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          display: block;
+          width: 180px;
+          height: 40px;
+          font-size: 16px;
+          line-height: 38px;
+          font-weight: 400;
+          color: #333;
+          text-decoration: none;
+          margin: auto;
+          text-align: center;
+          border: solid 1px #333;
+          border-radius: 20px;
+          -webkit-transition: all 0.25s;
+          transition: all 0.25s; }
+          /* line 88, ../sass/ourServices.sass */
+          .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .btn:hover {
+            background-color: #facc0e;
+            border: solid 1px #facc0e; }
+
+/**** MEDIA *** */
+@media screen and (max-width: 1249px) {
+  /* line 104, ../sass/ourServices.sass */
+  .wrapper > article > .centerBlock {
+    width: inherit;
+    margin-bottom: 5px; } }
+@media screen and (max-width: 619px) {
+  /* line 120, ../sass/ourServices.sass */
+  .wrapper > article > .centerBlock > .title {
+    width: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px; }
+  /* line 129, ../sass/ourServices.sass */
+  .wrapper > article > .centerBlock > .servicesWrapper {
+    width: 100%;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    /* line 140, ../sass/ourServices.sass */
+    .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock {
+      width: 250px;
+      height: auto;
+      margin: 0px 30px 70px; }
+      /* line 145, ../sass/ourServices.sass */
+      .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .imgWrapper {
+        width: 104px;
+        height: 104px;
+        border-radius: 50%;
+        margin: 0px auto 25px;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: #f3f3f3; }
+        /* line 157, ../sass/ourServices.sass */
+        .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .imgWrapper img {
+          width: 65px;
+          height: 65px;
+          margin: auto; }
+      /* line 164, ../sass/ourServices.sass */
+      .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .text {
+        display: none; }
+      /* line 167, ../sass/ourServices.sass */
+      .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .btn {
+        margin-top: 25px;
+        position: static; } }
+/* line 3, ../sass/infoAboutCompany.sass */
+.wrapper > article .infoAboutCompanyBlock {
+  width: inherit;
+  height: 370px;
+  background-color: #ffcf17;
+  background-size: cover;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+  /* line 15, ../sass/infoAboutCompany.sass */
+  .wrapper > article .infoAboutCompanyBlock .textBlock {
+    display: block;
+    width: 880px;
+    font-size: 18px;
+    line-height: 21px;
+    padding-right: 320px;
+    margin: auto; }
+    /* line 24, ../sass/infoAboutCompany.sass */
+    .wrapper > article .infoAboutCompanyBlock .textBlock p .bold {
+      font-weight: bold; }
+  /* line 27, ../sass/infoAboutCompany.sass */
+  .wrapper > article .infoAboutCompanyBlock .imgBlock {
+    position: absolute;
+    width: 100%;
+    height: inherit; }
+  /* line 33, ../sass/infoAboutCompany.sass */
+  .wrapper > article .infoAboutCompanyBlock img {
+    position: absolute;
+    height: 453;
+    width: 266px;
+    bottom: 0;
+    left: calc(50% + 334px); }
+
+/**** MEDIA *** */
+@media screen and (max-width: 1249px) {
+  /* line 48, ../sass/infoAboutCompany.sass */
+  .wrapper > article .infoAboutCompanyBlock {
+    height: auto;
+    padding: 50px 0px; }
+    /* line 52, ../sass/infoAboutCompany.sass */
+    .wrapper > article .infoAboutCompanyBlock .textBlock {
+      width: calc(100% - 100px);
+      padding-right: 0px;
+      text-align: justify; }
+    /* line 57, ../sass/infoAboutCompany.sass */
+    .wrapper > article .infoAboutCompanyBlock .imgBlock {
+      display: none; } }
+@media screen and (max-width: 479px) {
+  /* line 79, ../sass/infoAboutCompany.sass */
+  .wrapper > article .infoAboutCompanyBlock {
+    padding: 35px 0px; }
+    /* line 81, ../sass/infoAboutCompany.sass */
+    .wrapper > article .infoAboutCompanyBlock .textBlock {
+      width: calc(100% - 50px);
+      font-size: 17px;
+      line-height: 16px; } }
+/* line 3, ../sass/ourTeam.sass */
+.wrapper > article > .ourTeamBlock {
+  padding-bottom: 10px; }
+  /* line 5, ../sass/ourTeam.sass */
+  .wrapper > article > .ourTeamBlock > .centerBlock {
+    padding-top: 50px;
+    width: 100%;
+    margin: auto;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    /* line 17, ../sass/ourTeam.sass */
+    .wrapper > article > .ourTeamBlock > .centerBlock > .title {
+      display: block;
+      width: 100%;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 60px; }
+    /* line 26, ../sass/ourTeam.sass */
+    .wrapper > article > .ourTeamBlock > .centerBlock > .teamBlock {
+      width: inherit;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap; }
+      /* line 36, ../sass/ourTeam.sass */
+      .wrapper > article > .ourTeamBlock > .centerBlock > .teamBlock .manageBlock {
+        text-align: center;
+        width: 180px;
+        margin: auto 20px; }
+        /* line 41, ../sass/ourTeam.sass */
+        .wrapper > article > .ourTeamBlock > .centerBlock > .teamBlock .manageBlock > img {
+          display: block;
+          width: 130px;
+          height: 130px;
+          border-radius: 50%;
+          margin: 0px auto 8px; }
+        /* line 49, ../sass/ourTeam.sass */
+        .wrapper > article > .ourTeamBlock > .centerBlock > .teamBlock .manageBlock > span {
+          display: block;
+          margin-bottom: 3px;
+          font-size: 15px;
+          font-weight: 500;
+          margin: 0px auto 3px; }
+        /* line 56, ../sass/ourTeam.sass */
+        .wrapper > article > .ourTeamBlock > .centerBlock > .teamBlock .manageBlock > .line {
+          width: 100px;
+          height: 2px;
+          background-color: #FFCF17FF;
+          margin: 0px auto 3px; }
+        /* line 62, ../sass/ourTeam.sass */
+        .wrapper > article > .ourTeamBlock > .centerBlock > .teamBlock .manageBlock > .position {
+          font-size: 13px;
+          font-weight: 400; }
+      /* line 66, ../sass/ourTeam.sass */
+      .wrapper > article > .ourTeamBlock > .centerBlock > .teamBlock .manageCont {
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap; }
+    /* line 74, ../sass/ourTeam.sass */
+    .wrapper > article > .ourTeamBlock > .centerBlock > .workersBlock {
+      width: inherit;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-top: 45px; }
+      /* line 85, ../sass/ourTeam.sass */
+      .wrapper > article > .ourTeamBlock > .centerBlock > .workersBlock .workerBlock {
+        text-align: center;
+        width: 180px;
+        margin: auto 20px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        margin-bottom: 40px; }
+        /* line 92, ../sass/ourTeam.sass */
+        .wrapper > article > .ourTeamBlock > .centerBlock > .workersBlock .workerBlock > img {
+          display: block;
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+          margin: 0px auto 8px; }
+        /* line 99, ../sass/ourTeam.sass */
+        .wrapper > article > .ourTeamBlock > .centerBlock > .workersBlock .workerBlock > span {
+          display: block;
+          margin-bottom: 3px;
+          font-size: 15px;
+          font-weight: 500;
+          margin: 0px auto 3px; }
+        /* line 106, ../sass/ourTeam.sass */
+        .wrapper > article > .ourTeamBlock > .centerBlock > .workersBlock .workerBlock > .line {
+          width: 80px;
+          height: 2px;
+          background-color: #FFCF17FF;
+          margin: 0px auto 3px; }
+        /* line 112, ../sass/ourTeam.sass */
+        .wrapper > article > .ourTeamBlock > .centerBlock > .workersBlock .workerBlock > .position {
+          font-size: 13px;
+          font-weight: 400; }
+
+/**** MEDIA *** */
+@media screen and (max-width: 799px) {
+  /* line 130, ../sass/ourTeam.sass */
+  .wrapper > article > .ourTeamBlock {
+    padding-bottom: 10px; }
+    /* line 133, ../sass/ourTeam.sass */
+    .wrapper > article > .ourTeamBlock > .centerBlock > .title {
+      margin-bottom: 30px; }
+    /* line 136, ../sass/ourTeam.sass */
+    .wrapper > article > .ourTeamBlock > .centerBlock > .teamBlock {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      /* line 140, ../sass/ourTeam.sass */
+      .wrapper > article > .ourTeamBlock > .centerBlock > .teamBlock > .manageBlock {
+        margin: 0px 20px 40px; }
+        /* line 143, ../sass/ourTeam.sass */
+        .wrapper > article > .ourTeamBlock > .centerBlock > .teamBlock > .manageBlock > img {
+          width: 110px;
+          height: 110px; }
+      /* line 147, ../sass/ourTeam.sass */
+      .wrapper > article > .ourTeamBlock > .centerBlock > .teamBlock .manageCont {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        /* line 151, ../sass/ourTeam.sass */
+        .wrapper > article > .ourTeamBlock > .centerBlock > .teamBlock .manageCont > .manageBlock {
+          margin-bottom: 40px; }
+    /* line 154, ../sass/ourTeam.sass */
+    .wrapper > article > .ourTeamBlock > .centerBlock > .workersBlock {
+      margin-top: 0px; }
+      /* line 158, ../sass/ourTeam.sass */
+      .wrapper > article > .ourTeamBlock > .centerBlock > .workersBlock .workerBlock > img {
+        width: 110px;
+        height: 110px; } }
+/* line 5, ../sass/ourGuarantees.sass */
+.wrapper > article > .ourGuaranteesBlock {
+  padding-top: 70px;
+  padding-bottom: 110px; }
+  /* line 9, ../sass/ourGuarantees.sass */
+  .wrapper > article > .ourGuaranteesBlock > .title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px; }
+  /* line 17, ../sass/ourGuarantees.sass */
+  .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper {
+    max-width: 750px;
+    margin: auto;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    /* line 27, ../sass/ourGuarantees.sass */
+    .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper > .guaranteeWrapper {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0px auto 22px auto;
+      font-weight: wrap;
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1; }
+      /* line 37, ../sass/ourGuarantees.sass */
+      .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper > .guaranteeWrapper:last-child {
+        margin-bottom: 0; }
+      /* line 40, ../sass/ourGuarantees.sass */
+      .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper > .guaranteeWrapper > .angel {
+        width: 30px;
+        height: 23px;
+        margin-right: 16px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        background-image: url("../img/yellowArrow.svg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      /* line 49, ../sass/ourGuarantees.sass */
+      .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper > .guaranteeWrapper > .text {
+        padding-top: 2px;
+        font-size: 20px;
+        line-height: 20px; }
+
+/**** MEDIA *** */
+@media screen and (max-width: 799px) {
+  /* line 67, ../sass/ourGuarantees.sass */
+  .wrapper > article > .ourGuaranteesBlock {
+    padding-bottom: 50px;
+    padding-top: 50px; }
+    /* line 70, ../sass/ourGuarantees.sass */
+    .wrapper > article > .ourGuaranteesBlock > .title {
+      margin-bottom: 30px; }
+    /* line 72, ../sass/ourGuarantees.sass */
+    .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper {
+      padding: 0px 20px; }
+      /* line 74, ../sass/ourGuarantees.sass */
+      .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper > .guaranteeWrapper {
+        margin-bottom: 12px; }
+        /* line 76, ../sass/ourGuarantees.sass */
+        .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper > .guaranteeWrapper > .angel {
+          width: calc(40px * 0.7);
+          height: calc(30px * 0.7);
+          margin-right: 13px; }
+        /* line 81, ../sass/ourGuarantees.sass */
+        .wrapper > article > .ourGuaranteesBlock > .guaranteesWrapper > .guaranteeWrapper > .text {
+          font-size: 17px;
+          line-height: 17px; } }
+/* line 5, ../sass/questionsBlock.sass */
+.wrapper > article > .questionsBlock {
+  background-color: #f6f6f6;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  /* line 11, ../sass/questionsBlock.sass */
+  .wrapper > article > .questionsBlock > .centerBlock {
+    max-width: 1025px;
+    margin: auto;
+    padding: 0px 20px; }
+    /* line 17, ../sass/questionsBlock.sass */
+    .wrapper > article > .questionsBlock > .centerBlock > .title {
+      width: 100%;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 50px; }
+    /* line 25, ../sass/questionsBlock.sass */
+    .wrapper > article > .questionsBlock > .centerBlock > .contWrapper {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      /* line 33, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper {
+        margin-bottom: 35px; }
+        /* line 36, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper:last-child {
+          margin-bottom: 0px; }
+        /* line 39, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper > .questionWrpr {
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          /* line 47, ../sass/questionsBlock.sass */
+          .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper > .questionWrpr > .questionBlock > .question {
+            font-size: 20px;
+            padding-right: 17px;
+            position: relative;
+            cursor: default; }
+            /* line 53, ../sass/questionsBlock.sass */
+            .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper > .questionWrpr > .questionBlock > .question > .QErrow {
+              position: absolute;
+              right: 0;
+              top: calc(50% - 3px);
+              width: 11px;
+              height: 7px;
+              background-image: url("../img/arrow_bottom.svg");
+              -webkit-transition: -webkit-transform 0.3s;
+              transition: -webkit-transform 0.3s;
+              transition: transform 0.3s;
+              transition: transform 0.3s, -webkit-transform 0.3s; }
+          /* line 62, ../sass/questionsBlock.sass */
+          .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper > .questionWrpr > .questionBlock > .line {
+            width: 100%;
+            height: 1px;
+            background-color: #ffcf17;
+            margin-top: 4px; }
+        /* line 68, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper > .answer {
+          font-size: 17px;
+          margin-top: 10px;
+          font-weight: 400;
+          color: #888; }
+      /* line 74, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .delimiter {
+        height: inherit;
+        width: 1px;
+        background-color: #e2e2e2;
+        margin: 0 75px 0px 75px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0; }
+      /* line 81, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper {
+        -ms-flex-preferred-size: 252px;
+            flex-basis: 252px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        /* line 91, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .textBlock {
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          margin-bottom: 23px; }
+          /* line 100, ../sass/questionsBlock.sass */
+          .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .textBlock > .title {
+            font-size: 20px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 20px; }
+          /* line 106, ../sass/questionsBlock.sass */
+          .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .textBlock > .text {
+            font-size: 16px;
+            font-weight: 400; }
+        /* line 110, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock {
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column; }
+          /* line 118, ../sass/questionsBlock.sass */
+          .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .phonesBlock {
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            margin-bottom: 20px; }
+            /* line 127, ../sass/questionsBlock.sass */
+            .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .phonesBlock > .img {
+              width: 50px;
+              height: 50px;
+              background-color: #ffcf17;
+              border-radius: 50%;
+              background-image: url("../img/phoneInCircle.svg");
+              background-size: 38px;
+              background-repeat: no-repeat;
+              background-position: center;
+              -ms-flex-negative: 0;
+                  flex-shrink: 0; }
+            /* line 138, ../sass/questionsBlock.sass */
+            .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .phonesBlock > .phonesWrapper {
+              display: -moz-flex;
+              display: -ms-flex;
+              display: -o-flex;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+                  -ms-flex-direction: column;
+                      flex-direction: column;
+              margin-left: 7px;
+              padding-top: 3px; }
+              /* line 148, ../sass/questionsBlock.sass */
+              .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .phonesBlock > .phonesWrapper > .phone {
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 2px; }
+                /* line 153, ../sass/questionsBlock.sass */
+                .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .phonesBlock > .phonesWrapper > .phone:last-child {
+                  margin-bottom: 0px; }
+          /* line 156, ../sass/questionsBlock.sass */
+          .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .skypeBtn {
+            width: 172px;
+            height: 50px;
+            background-color: #369eff;
+            border-radius: 25px;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex; }
+            /* line 167, ../sass/questionsBlock.sass */
+            .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .skypeBtn > .skypeLogo {
+              width: 50px;
+              height: 50px;
+              background-color: #178fff;
+              -ms-flex-negative: 0;
+                  flex-shrink: 0;
+              border-radius: 50%;
+              background-image: url("../img/skype-circular.svg");
+              background-size: 38px;
+              background-repeat: no-repeat;
+              background-position: center; }
+            /* line 178, ../sass/questionsBlock.sass */
+            .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .skypeBtn > .text {
+              padding-top: 9px;
+              margin-left: 8px;
+              font-size: 15px;
+              font-weight: 300;
+              color: #fff;
+              -webkit-user-select: none;
+                 -moz-user-select: none;
+                  -ms-user-select: none;
+                      user-select: none;
+              cursor: pointer; }
+
+/**** MEDIA *** */
+@media screen and (max-width: 899px) {
+  /* line 204, ../sass/questionsBlock.sass */
+  .wrapper > article > .questionsBlock > .centerBlock > .contWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    /* line 207, ../sass/questionsBlock.sass */
+    .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper {
+      margin-top: 80px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-preferred-size: auto;
+          flex-basis: auto; }
+      /* line 213, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .textBlock {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-bottom: 23px; }
+      /* line 217, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock {
+        margin-left: 30px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0; } }
+@media screen and (max-width: 799px) {
+  /* line 228, ../sass/questionsBlock.sass */
+  .wrapper > article > .questionsBlock > .centerBlock > .title {
+    margin-bottom: 30px; } }
+@media screen and (max-width: 619px) {
+  /* line 238, ../sass/questionsBlock.sass */
+  .wrapper > article > .questionsBlock > .centerBlock > .contWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    /* line 243, ../sass/questionsBlock.sass */
+    .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .qstnsWrp > .questionsWrapper > .answer {
+      text-align: justify; }
+    /* line 247, ../sass/questionsBlock.sass */
+    .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper {
+      margin-top: 80px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      /* line 251, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .textBlock {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-bottom: 23px; }
+        /* line 255, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .textBlock > .title {
+          text-align: center; }
+        /* line 258, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .textBlock > .text {
+          text-align: justify; }
+      /* line 261, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock {
+        margin-left: 0px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        /* line 268, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .phonesBlock {
+          margin-bottom: 0px; }
+        /* line 271, ../sass/questionsBlock.sass */
+        .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .skypeBtn {
+          margin-left: 30px; } }
+@media screen and (max-width: 508px) {
+  /* line 280, ../sass/questionsBlock.sass */
+  .wrapper > article > .questionsBlock > .centerBlock > .title {
+    margin-bottom: 30px; }
+  /* line 283, ../sass/questionsBlock.sass */
+  .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper {
+    margin-top: 90px; }
+    /* line 286, ../sass/questionsBlock.sass */
+    .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock {
+      margin-left: 0px;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      /* line 293, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .phonesBlock {
+        margin: auto;
+        margin-bottom: 20px; }
+      /* line 297, ../sass/questionsBlock.sass */
+      .wrapper > article > .questionsBlock > .centerBlock > .contWrapper > .contactsWrapper > .dataBlock > .skypeBtn {
+        margin: auto; } }
+/* line 5, ../sass/footerBlock.sass */
+.wrapper > footer > .footerBlock {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffcf17;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  position: relative; }
+  /* line 19, ../sass/footerBlock.sass */
+  .wrapper > footer > .footerBlock > .bg {
+    width: 5000px;
+    height: 350px;
+    position: absolute;
+    top: -140px;
+    left: calc(50% - 2500px);
+    background-image: url("../img/bg.png");
+    background-position: 50% 50%;
+    background-size: 1000px;
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+    opacity: 0.75;
+    z-index: 0; }
+  /* line 33, ../sass/footerBlock.sass */
+  .wrapper > footer > .footerBlock > .title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    z-index: 1; }
+  /* line 41, ../sass/footerBlock.sass */
+  .wrapper > footer > .footerBlock > .infoWrapper {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    z-index: 1; }
+    /* line 50, ../sass/footerBlock.sass */
+    .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      /* line 57, ../sass/footerBlock.sass */
+      .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .logo {
+        width: 109px;
+        height: 43px;
+        background-image: url("../img/logo1.png");
+        margin-right: 70px; }
+      /* line 63, ../sass/footerBlock.sass */
+      .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock {
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        /* line 71, ../sass/footerBlock.sass */
+        .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock > .addressBlock {
+          margin-bottom: 6px; }
+        /* line 74, ../sass/footerBlock.sass */
+        .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock > .addressBlock, .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock .scheduleBlock {
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          /* line 81, ../sass/footerBlock.sass */
+          .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock > .addressBlock > .bold, .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock .scheduleBlock > .bold {
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase; }
+          /* line 86, ../sass/footerBlock.sass */
+          .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock > .addressBlock > .text, .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock .scheduleBlock > .text {
+            font-size: 18px;
+            font-weight: 400;
+            margin-left: 14px; }
+    /* line 91, ../sass/footerBlock.sass */
+    .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: 100px; }
+      /* line 99, ../sass/footerBlock.sass */
+      .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock > .phoneWrapper {
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        /* line 106, ../sass/footerBlock.sass */
+        .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock > .phoneWrapper > .phoneImg {
+          width: 50px;
+          height: 50px;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+          background-image: url("../img/phoneInCircle.svg");
+          background-size: 38px;
+          background-repeat: no-repeat;
+          background-position: center; }
+        /* line 116, ../sass/footerBlock.sass */
+        .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock > .phoneWrapper > .nombersWrapper {
+          padding-top: 4px; }
+          /* line 119, ../sass/footerBlock.sass */
+          .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock > .phoneWrapper > .nombersWrapper > .nombers {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 3px; }
+            /* line 125, ../sass/footerBlock.sass */
+            .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock > .phoneWrapper > .nombersWrapper > .nombers:last-child {
+              margin-bottom: 0px; }
+      /* line 130, ../sass/footerBlock.sass */
+      .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock > .skypeBtn {
+        display: block;
+        width: 172px;
+        height: 50px;
+        background-color: #369eff;
+        border-radius: 25px;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: 40px; }
+        /* line 143, ../sass/footerBlock.sass */
+        .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock > .skypeBtn > .skypeImg {
+          width: 50px;
+          height: 50px;
+          background-color: #178fff;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+          border-radius: 50%;
+          background-image: url("../img/skype-circular.svg");
+          background-size: 38px;
+          background-repeat: no-repeat;
+          background-position: center; }
+        /* line 154, ../sass/footerBlock.sass */
+        .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock > .skypeBtn > .text, .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock > .skypeBtn > .text:hover > .text:visited > .text:active {
+          display: block;
+          padding-top: 9px;
+          margin-left: 8px;
+          font-size: 15px;
+          font-weight: 300;
+          color: #fff;
+          -webkit-user-select: none;
+             -moz-user-select: none;
+              -ms-user-select: none;
+                  user-select: none;
+          cursor: pointer;
+          text-decoration: none; }
+  /* line 165, ../sass/footerBlock.sass */
+  .wrapper > footer > .footerBlock > .sotialBlock {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 70px; }
+    /* line 174, ../sass/footerBlock.sass */
+    .wrapper > footer > .footerBlock > .sotialBlock > .sotialBtn {
+      width: 20px;
+      height: 20px;
+      margin: 0px 10px; }
+      /* line 179, ../sass/footerBlock.sass */
+      .wrapper > footer > .footerBlock > .sotialBlock > .sotialBtn > img {
+        width: inherit;
+        height: inherit; }
+
+/**** MEDIA *** */
+@media screen and (max-width: 1249px) {
+  /* line 193, ../sass/footerBlock.sass */
+  .wrapper > footer > .footerBlock > .bg {
+    width: 5000px;
+    height: 550px;
+    top: -300px; }
+  /* line 198, ../sass/footerBlock.sass */
+  .wrapper > footer > .footerBlock > .title {
+    display: none; }
+  /* line 200, ../sass/footerBlock.sass */
+  .wrapper > footer > .footerBlock > .infoWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    /* line 203, ../sass/footerBlock.sass */
+    .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock, .wrapper > footer > .footerBlock > .infoWrapper .contactsBlock {
+      width: inherit;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    /* line 207, ../sass/footerBlock.sass */
+    .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock {
+      margin-left: 0px;
+      margin-top: 50px; } }
+@media screen and (max-width: 767px) {
+  /* line 219, ../sass/footerBlock.sass */
+  .wrapper > footer > .footerBlock > .bg {
+    width: 5000px;
+    height: 550px;
+    top: -180px; }
+  /* line 225, ../sass/footerBlock.sass */
+  .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    /* line 229, ../sass/footerBlock.sass */
+    .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .logo {
+      margin: auto;
+      margin-bottom: 45px; }
+    /* line 234, ../sass/footerBlock.sass */
+    .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock > .addressBlock, .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock > .scheduleBlock {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+  /* line 237, ../sass/footerBlock.sass */
+  .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    /* line 240, ../sass/footerBlock.sass */
+    .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock > .phoneWrapper {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    /* line 243, ../sass/footerBlock.sass */
+    .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock > .skypeBtn {
+      margin: auto;
+      margin-top: 20px; } }
+@media screen and (max-width: 479px) {
+  /* line 255, ../sass/footerBlock.sass */
+  .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock > .scheduleBlock {
+    margin-top: 5px; }
+  /* line 259, ../sass/footerBlock.sass */
+  .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock > .addressBlock > .bold, .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock > .scheduleBlock > .bold {
+    font-size: 13px; }
+  /* line 262, ../sass/footerBlock.sass */
+  .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock > .addressBlock > .text, .wrapper > footer > .footerBlock > .infoWrapper > .logoTextBlock > .textBlock > .scheduleBlock > .text {
+    font-size: 13px; }
+  /* line 265, ../sass/footerBlock.sass */
+  .wrapper > footer > .footerBlock > .infoWrapper > .contactsBlock {
+    margin-top: 45px; } }
+/* line 5, ../sass/authorInfoBlock.sass */
+.wrapper > footer > .authorInfoBlock {
+  background-color: #facb0c;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100; }
+  /* line 13, ../sass/authorInfoBlock.sass */
+  .wrapper > footer > .authorInfoBlock > a, .wrapper > footer > .authorInfoBlock > a:visited {
+    color: #fff;
+    text-decoration: none; }
+
+/* line 3, ../sass/serviceBlock.sass */
+.wrapper > article > .serviceBlock {
+  max-width: 1060px;
+  margin: auto;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 110px;
+  margin-bottom: 110px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  /* line 18, ../sass/serviceBlock.sass */
+  .wrapper > article > .serviceBlock > .infoBlock {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    /* line 25, ../sass/serviceBlock.sass */
+    .wrapper > article > .serviceBlock > .infoBlock > .img {
+      width: 150px;
+      height: 150px;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      margin-right: 50px;
+      background-color: #f3f3f3;
+      border-radius: 50%;
+      background-image: url("../img/phone.svg");
+      background-repeat: no-repeat;
+      background-size: 90px 90px;
+      background-position: center; }
+    /* line 38, ../sass/serviceBlock.sass */
+    .wrapper > article > .serviceBlock > .infoBlock > .textBlock > .title {
+      font-size: 25px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    /* line 43, ../sass/serviceBlock.sass */
+    .wrapper > article > .serviceBlock > .infoBlock > .textBlock > .text {
+      margin-top: 30px;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: justify; }
+  /* line 49, ../sass/serviceBlock.sass */
+  .wrapper > article > .serviceBlock > .serviceListBlock, .wrapper > article > .serviceBlock > .serviceListBlockWithPrice {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 125px; }
+    /* line 54, ../sass/serviceBlock.sass */
+    .wrapper > article > .serviceBlock > .serviceListBlock > .title, .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .title {
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 50px; }
+    /* line 61, ../sass/serviceBlock.sass */
+    .wrapper > article > .serviceBlock > .serviceListBlock > .serviceWrp, .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .serviceWrp {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 20px; }
+      /* line 69, ../sass/serviceBlock.sass */
+      .wrapper > article > .serviceBlock > .serviceListBlock > .serviceWrp:last-child, .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .serviceWrp:last-child {
+        margin-bottom: 0; }
+      /* line 72, ../sass/serviceBlock.sass */
+      .wrapper > article > .serviceBlock > .serviceListBlock > .serviceWrp > .arrow, .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .serviceWrp > .arrow {
+        width: 38px;
+        height: 28px;
+        background-image: url("../img/yellowArrow.svg");
+        -ms-flex-negative: 0;
+            flex-shrink: 0; }
+      /* line 78, ../sass/serviceBlock.sass */
+      .wrapper > article > .serviceBlock > .serviceListBlock > .serviceWrp > .text, .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .serviceWrp > .text {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 3px;
+        margin-left: 14px;
+        text-align: justify; }
+  /* line 85, ../sass/serviceBlock.sass */
+  .wrapper > article > .serviceBlock > .serviceListBlockWithPrice {
+    width: 100%; }
+    /* line 88, ../sass/serviceBlock.sass */
+    .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .title {
+      margin-bottom: 36px; }
+    /* line 91, ../sass/serviceBlock.sass */
+    .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .serviceWrpWithPrice {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      font-size: 20px;
+      font-weight: 400;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      border-bottom: 2px solid #f3f3f3; }
+      /* line 105, ../sass/serviceBlock.sass */
+      .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .serviceWrpWithPrice > .price {
+        min-width: 110px;
+        font-size: 18px;
+        font-weight: 400;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        text-align: right;
+        margin-left: 20px; }
+        /* line 113, ../sass/serviceBlock.sass */
+        .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .serviceWrpWithPrice > .price > .val {
+          font-size: 22px;
+          font-weight: 600;
+          display: inline-block; }
+  /* line 119, ../sass/serviceBlock.sass */
+  .wrapper > article > .serviceBlock > .detailsBlock {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 85px;
+    text-transform: uppercase; }
+
+/**** MEDIA *** */
+@media screen and (max-width: 767px) {
+  /* line 141, ../sass/serviceBlock.sass */
+  .wrapper > article > .serviceBlock {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px; }
+    /* line 147, ../sass/serviceBlock.sass */
+    .wrapper > article > .serviceBlock > .infoBlock {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      /* line 151, ../sass/serviceBlock.sass */
+      .wrapper > article > .serviceBlock > .infoBlock > .img {
+        width: 100px;
+        height: 100px;
+        margin-right: 0px;
+        background-size: 60px 60px;
+        margin-bottom: 30px; }
+      /* line 159, ../sass/serviceBlock.sass */
+      .wrapper > article > .serviceBlock > .infoBlock > .textBlock > .title {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center; }
+      /* line 164, ../sass/serviceBlock.sass */
+      .wrapper > article > .serviceBlock > .infoBlock > .textBlock > .text {
+        font-size: 18px; }
+    /* line 167, ../sass/serviceBlock.sass */
+    .wrapper > article > .serviceBlock > .serviceListBlock, .wrapper > article > .serviceBlock > .serviceListBlockWithPrice {
+      margin-top: 70px; }
+      /* line 170, ../sass/serviceBlock.sass */
+      .wrapper > article > .serviceBlock > .serviceListBlock > .title, .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .title {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      /* line 175, ../sass/serviceBlock.sass */
+      .wrapper > article > .serviceBlock > .serviceListBlock > .serviceWrp > .arrow, .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .serviceWrp > .arrow {
+        width: 25px;
+        height: 18px; }
+      /* line 179, ../sass/serviceBlock.sass */
+      .wrapper > article > .serviceBlock > .serviceListBlock > .serviceWrp > .text, .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .serviceWrp > .text {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-left: 10px; }
+    /* line 185, ../sass/serviceBlock.sass */
+    .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .title {
+      margin-bottom: 18px; }
+    /* line 188, ../sass/serviceBlock.sass */
+    .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .serviceWrpWithPrice {
+      font-size: 18px;
+      padding-top: 12px;
+      padding-bottom: 12px; }
+      /* line 194, ../sass/serviceBlock.sass */
+      .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .serviceWrpWithPrice > .price {
+        min-width: 80px;
+        font-size: 14px;
+        margin-left: 10px; }
+        /* line 200, ../sass/serviceBlock.sass */
+        .wrapper > article > .serviceBlock > .serviceListBlockWithPrice > .serviceWrpWithPrice > .price > .val {
+          font-size: 16px;
+          font-weight: 600;
+          display: inline-block; }
+    /* line 205, ../sass/serviceBlock.sass */
+    .wrapper > article > .serviceBlock > .detailsBlock {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+      margin-top: 50px;
+      text-transform: uppercase; } }
+/* line 24, ../sass/all_styles.sass */
+.wrapper {
+  min-width: 320px;
+  font-family: "Proxima Nova";
+  color: #333;
+  overflow: hidden; }
+
+/* line 30, ../sass/all_styles.sass */
+.skypeBtnFromSkype {
+  position: absolute;
+  top: -500px;
+  left: 0;
+  background-color: red; }

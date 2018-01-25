@@ -1,0 +1,154 @@
+/* line 2, ../sass/article.sass */
+.wrapper > article {
+  background-color: #fdfdfd; }
+  /* line 4, ../sass/article.sass */
+  .wrapper > article > .centerBlock {
+    width: 1250px;
+    margin: auto;
+    margin-bottom: 40px;
+    overflow: hidden; }
+    /* line 10, ../sass/article.sass */
+    .wrapper > article > .centerBlock > .title {
+      width: inherit;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 70px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 50px; }
+    /* line 19, ../sass/article.sass */
+    .wrapper > article > .centerBlock > .servicesWrapper {
+      width: 100%;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      /* line 30, ../sass/article.sass */
+      .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock {
+        width: 250px;
+        height: 340px;
+        margin: 0px 30px 70px;
+        position: relative; }
+        /* line 36, ../sass/article.sass */
+        .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .imgWrapper {
+          width: 104px;
+          height: 104px;
+          border-radius: 50%;
+          margin: 0px auto 25px;
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          background-color: #f3f3f3;
+          background-size: 65px 65px;
+          background-repeat: no-repeat;
+          background-position: center; }
+        /* line 52, ../sass/article.sass */
+        .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .title {
+          font-size: 16px;
+          font-weight: 500;
+          text-align: center;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+          line-height: 16px; }
+        /* line 60, ../sass/article.sass */
+        .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .text {
+          font-size: 16px;
+          font-weight: 400;
+          text-align: center;
+          line-height: 18px;
+          margin-bottom: 26px;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        /* line 69, ../sass/article.sass */
+        .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .btn {
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          display: block;
+          width: 180px;
+          height: 40px;
+          font-size: 16px;
+          line-height: 38px;
+          font-weight: 400;
+          color: #333;
+          text-decoration: none;
+          margin: auto;
+          text-align: center;
+          border: solid 1px #333;
+          border-radius: 20px;
+          -webkit-transition: all 0.25s;
+          transition: all 0.25s; }
+          /* line 88, ../sass/article.sass */
+          .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .btn:hover {
+            background-color: #facc0e;
+            border: solid 1px #facc0e; }
+
+/**** MEDIA *** */
+@media screen and (max-width: 1249px) {
+  /* line 104, ../sass/article.sass */
+  .wrapper > article > .centerBlock {
+    width: inherit;
+    margin-bottom: 5px; } }
+@media screen and (max-width: 619px) {
+  /* line 120, ../sass/article.sass */
+  .wrapper > article > .centerBlock > .title {
+    width: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px; }
+  /* line 129, ../sass/article.sass */
+  .wrapper > article > .centerBlock > .servicesWrapper {
+    width: 100%;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    /* line 140, ../sass/article.sass */
+    .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock {
+      width: 250px;
+      height: auto;
+      margin: 0px 30px 70px; }
+      /* line 145, ../sass/article.sass */
+      .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .imgWrapper {
+        width: 104px;
+        height: 104px;
+        border-radius: 50%;
+        margin: 0px auto 25px;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: #f3f3f3; }
+        /* line 157, ../sass/article.sass */
+        .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .imgWrapper img {
+          width: 65px;
+          height: 65px;
+          margin: auto; }
+      /* line 164, ../sass/article.sass */
+      .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .text {
+        display: none; }
+      /* line 167, ../sass/article.sass */
+      .wrapper > article > .centerBlock > .servicesWrapper > .serviceBlock > .btn {
+        margin-top: 25px;
+        position: static; } }

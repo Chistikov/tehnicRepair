@@ -1,0 +1,607 @@
+/* line 3, ../sass/headerAndMenu.sass */
+.wrapper > header {
+  width: 100%; }
+  /* line 6, ../sass/headerAndMenu.sass */
+  .wrapper > header > .darkBk {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 10;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    display: none;
+    overflow: hidden; }
+    /* line 19, ../sass/headerAndMenu.sass */
+    .wrapper > header > .darkBk > .menu {
+      position: fixed;
+      top: 0;
+      left: 0px;
+      width: 300px;
+      height: 100%;
+      background-color: #FFF;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding: 0px 20px;
+      -webkit-transition: left 0.5s;
+      transition: left 0.5s; }
+      /* line 31, ../sass/headerAndMenu.sass */
+      .wrapper > header > .darkBk > .menu > .arrowLeft {
+        position: absolute;
+        top: 40px;
+        left: 15px;
+        width: 35px;
+        height: 35px;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        /* line 43, ../sass/headerAndMenu.sass */
+        .wrapper > header > .darkBk > .menu > .arrowLeft > img {
+          width: 8px;
+          height: 16px;
+          margin: auto; }
+      /* line 48, ../sass/headerAndMenu.sass */
+      .wrapper > header > .darkBk > .menu > .logoWrapper {
+        margin: auto;
+        width: 80px;
+        height: 33px;
+        padding-top: 40px;
+        margin-bottom: 55px; }
+        /* line 55, ../sass/headerAndMenu.sass */
+        .wrapper > header > .darkBk > .menu > .logoWrapper > img {
+          height: inherit;
+          width: inherit;
+          margin: auto; }
+      /* line 61, ../sass/headerAndMenu.sass */
+      .wrapper > header > .darkBk > .menu > ul > li {
+        display: block;
+        height: auto;
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 500;
+        text-decoration: none;
+        text-indent: 0px;
+        color: #333;
+        text-transform: lowercase;
+        border-bottom: 1px solid #EDEDED;
+        padding: 12px 0px 12px 10px; }
+        /* line 74, ../sass/headerAndMenu.sass */
+        .wrapper > header > .darkBk > .menu > ul > li > a {
+          display: block;
+          height: auto;
+          font-size: 15px;
+          line-height: 15px;
+          font-weight: 500;
+          text-decoration: none;
+          text-indent: 0px;
+          color: #333;
+          text-transform: lowercase; }
+        /* line 85, ../sass/headerAndMenu.sass */
+        .wrapper > header > .darkBk > .menu > ul > li > .serviceList {
+          max-height: calc(100vh - 340px);
+          max-height: auto;
+          overflow-x: hidden;
+          text-indent: 14px;
+          margin-top: 10px; }
+          /* line 92, ../sass/headerAndMenu.sass */
+          .wrapper > header > .darkBk > .menu > ul > li > .serviceList::-webkit-scrollbar {
+            width: 0; }
+          /* line 94, ../sass/headerAndMenu.sass */
+          .wrapper > header > .darkBk > .menu > ul > li > .serviceList {
+            -ms-overflow-style: none; }
+          /* line 96, ../sass/headerAndMenu.sass */
+          .wrapper > header > .darkBk > .menu > ul > li > .serviceList {
+            overflow: -moz-scrollbars-none; }
+          /* line 100, ../sass/headerAndMenu.sass */
+          .wrapper > header > .darkBk > .menu > ul > li > .serviceList > ul > a {
+            display: block;
+            height: auto;
+            font-size: 16px;
+            line-height: 15px;
+            font-weight: 400;
+            text-decoration: none;
+            text-indent: 0px;
+            color: #333;
+            text-transform: lowercase;
+            padding: 10px 0px 10px 13px;
+            position: relative; }
+            /* line 113, ../sass/headerAndMenu.sass */
+            .wrapper > header > .darkBk > .menu > ul > li > .serviceList > ul > a:before {
+              content: " ";
+              position: absolute;
+              top: calc(50% - 4px);
+              left: 0px;
+              width: 6px;
+              height: 6px;
+              border-radius: 50%;
+              background-color: #facc0e; }
+      /* line 123, ../sass/headerAndMenu.sass */
+      .wrapper > header > .darkBk > .menu > .phonesBlock {
+        position: absolute;
+        bottom: 30px;
+        left: calc(50% - 79px);
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 158px;
+        height: 31px;
+        margin: auto; }
+        /* line 136, ../sass/headerAndMenu.sass */
+        .wrapper > header > .darkBk > .menu > .phonesBlock > .phoneImg {
+          width: 25px;
+          height: 25px;
+          margin-top: 2px;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+          margin-right: 10px;
+          background-image: url("../img/phoneInCircle.svg"); }
+        /* line 144, ../sass/headerAndMenu.sass */
+        .wrapper > header > .darkBk > .menu > .phonesBlock > .phonesWrapper {
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          flex-diraction: column;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+          /* line 153, ../sass/headerAndMenu.sass */
+          .wrapper > header > .darkBk > .menu > .phonesBlock > .phonesWrapper > .phone {
+            display: block;
+            font-size: 14px;
+            font-weight: bold;
+            height: 14px;
+            margin-bottom: -50px; }
+  /* line 161, ../sass/headerAndMenu.sass */
+  .wrapper > header > .navBlock {
+    width: 100%;
+    height: 120px;
+    background-color: #fdfdfd; }
+    /* line 166, ../sass/headerAndMenu.sass */
+    .wrapper > header > .navBlock > .menuIco {
+      position: absolute;
+      width: 64px;
+      height: 64px;
+      top: 0;
+      left: 0;
+      display: none; }
+      /* line 174, ../sass/headerAndMenu.sass */
+      .wrapper > header > .navBlock > .menuIco > img {
+        width: 20px;
+        margin: auto; }
+    /* line 178, ../sass/headerAndMenu.sass */
+    .wrapper > header > .navBlock > .centerPos {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 1200px;
+      height: inherit;
+      margin: auto;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      /* line 189, ../sass/headerAndMenu.sass */
+      .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper {
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        /* line 196, ../sass/headerAndMenu.sass */
+        .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .logo {
+          padding-top: 38px;
+          margin-right: 61px; }
+          /* line 200, ../sass/headerAndMenu.sass */
+          .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .logo > a {
+            display: block;
+            width: 113px;
+            height: 45px;
+            background-image: url("../img/logo.png");
+            background-repeat: no-repeat;
+            background-position: 0 100%; }
+        /* line 209, ../sass/headerAndMenu.sass */
+        .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu {
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          /* line 216, ../sass/headerAndMenu.sass */
+          .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper {
+            padding-top: 42px; }
+            /* line 219, ../sass/headerAndMenu.sass */
+            .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper > .btn {
+              padding: 10px 14px;
+              display: inline-block;
+              font-size: 16px;
+              font-weight: 400;
+              text-transform: uppercase;
+              color: #222;
+              text-decoration: none;
+              position: relative;
+              cursor: pointer;
+              margin: 0px 9px 0px 0px; }
+              /* line 231, ../sass/headerAndMenu.sass */
+              .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper > .btn > .servicesBlock {
+                width: 335px;
+                height: auto;
+                position: absolute;
+                top: 38px;
+                left: calc(52px - 167px);
+                padding-top: 55px;
+                display: none;
+                z-index: 5; }
+                /* line 241, ../sass/headerAndMenu.sass */
+                .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper > .btn > .servicesBlock > .triangle {
+                  position: absolute;
+                  top: 40px;
+                  left: calc((100% / 2) - 10px);
+                  display: inline-block;
+                  width: 0px;
+                  height: 0px;
+                  border-bottom: 15px solid white;
+                  border-left: 10px solid transparent;
+                  border-right: 10px solid transparent;
+                  margin: auto; }
+                /* line 253, ../sass/headerAndMenu.sass */
+                .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper > .btn > .servicesBlock > .servicesWrapper {
+                  -webkit-box-sizing: border-box;
+                          box-sizing: border-box;
+                  width: inherit;
+                  position: relative;
+                  height: calc(100%);
+                  background-color: #fdfdfd;
+                  border-radius: 4px;
+                  padding: 20px 15px; }
+                  /* line 262, ../sass/headerAndMenu.sass */
+                  .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper > .btn > .servicesBlock > .servicesWrapper > .service {
+                    display: block;
+                    height: auto;
+                    font-size: 18px;
+                    line-height: 18px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    text-indent: 0px;
+                    color: #333;
+                    text-transform: lowercase;
+                    border-bottom: 1px solid #EDEDED;
+                    padding: 12px 10px; }
+                    /* line 275, ../sass/headerAndMenu.sass */
+                    .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper > .btn > .servicesBlock > .servicesWrapper > .service:last-child {
+                      border-bottom: 0px solid #EDEDED; }
+              /* line 279, ../sass/headerAndMenu.sass */
+              .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu > .btnWrapper > .btn:hover .servicesBlock {
+                display: block; }
+      /* line 282, ../sass/headerAndMenu.sass */
+      .wrapper > header > .navBlock > .centerPos > .phonesBlock {
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        float: right;
+        width: 221px;
+        height: 42px;
+        padding-top: 39px; }
+        /* line 293, ../sass/headerAndMenu.sass */
+        .wrapper > header > .navBlock > .centerPos > .phonesBlock > .phoneImg {
+          width: 37px;
+          height: 37px;
+          margin-top: 3px;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+          margin-right: 13px;
+          background-image: url("../img/phoneInCircle.svg"); }
+        /* line 301, ../sass/headerAndMenu.sass */
+        .wrapper > header > .navBlock > .centerPos > .phonesBlock > .phonesWrapper {
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          flex-diraction: column;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+          /* line 310, ../sass/headerAndMenu.sass */
+          .wrapper > header > .navBlock > .centerPos > .phonesBlock > .phonesWrapper > .phone {
+            display: block;
+            font-size: 20px;
+            font-weight: bold; }
+  /* line 315, ../sass/headerAndMenu.sass */
+  .wrapper > header > .headerBlock {
+    height: 430px;
+    width: 100%;
+    background-color: #fed521;
+    overflow: hidden;
+    position: relative; }
+    /* line 322, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .bgImg {
+      position: absolute;
+      top: calc(50% - 5000px);
+      left: calc(50% - 5000px);
+      width: 10000px;
+      height: 10000px;
+      background-image: url("../img/bg.png");
+      background-size: 1000px;
+      background-position: -100% -100%;
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-transform: rotate(-3deg);
+              transform: rotate(-3deg);
+      opacity: 0.6; }
+    /* line 335, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .gradient {
+      width: inherit;
+      height: inherit;
+      background: radial-gradient(ellipse at center, rgba(125, 185, 232, 0) 0%, #facc0e 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#facc0e',GradientType=1 ); }
+    /* line 343, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .cont {
+      position: absolute;
+      width: inherit;
+      height: inherit;
+      top: 0;
+      left: 0;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      /* line 355, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .centerBlock {
+        margin: auto;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        /* line 363, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock {
+          width: 646px;
+          margin-right: 130px; }
+          /* line 367, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .title {
+            display: block;
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 40px;
+            text-transform: uppercase;
+            margin-bottom: 30px; }
+          /* line 375, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .subTitle {
+            display: block;
+            width: inherit;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 20px; }
+        /* line 383, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock {
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          width: 235px;
+          background-color: #fdfdfd;
+          border-radius: 7px;
+          padding: 24px 23px;
+          border-bottom: solid 4px #e2e2e2;
+          margin-bottom: 6px;
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          /* line 397, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock > .discount {
+            display: block;
+            font-size: 37px;
+            font-weight: bold;
+            line-height: 37px;
+            color: #26a3dd;
+            margin-right: 10px; }
+          /* line 405, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock > .descr {
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 17px; }
+          /* line 412, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock:nth-child(2n) .discount {
+            color: #be2aa1; }
+      /* line 415, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .arrow {
+        position: absolute;
+        bottom: 35px;
+        left: calc(50% - 8px);
+        width: 16px;
+        height: 15px;
+        display: none; }
+
+/**** MEDIA *** */
+@media screen and (max-width: 1249px) {
+  /* line 436, ../sass/headerAndMenu.sass */
+  .wrapper > header > .navBlock > .centerPos {
+    width: calc(100% - 60px); }
+  /* line 442, ../sass/headerAndMenu.sass */
+  .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock {
+    width: 646px;
+    margin-right: 50px; } }
+@media screen and (max-width: 1000px) {
+  /* line 453, ../sass/headerAndMenu.sass */
+  .wrapper > header > .headerBlock {
+    height: 530px; }
+    /* line 457, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .cont > .centerBlock {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding-bottom: 20px; }
+      /* line 461, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock {
+        width: 646px;
+        margin-right: 0px; }
+        /* line 465, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .title {
+          text-align: center; }
+        /* line 468, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .subTitle {
+          text-align: justify; }
+      /* line 471, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper {
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 50px; }
+        /* line 481, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock {
+          margin-bottom: 0px;
+          margin: 0px 4px; }
+    /* line 485, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .cont > .arrow {
+      display: block; } }
+@media screen and (max-width: 899px) {
+  /* line 497, ../sass/headerAndMenu.sass */
+  .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .logo {
+    margin-right: 35px; } }
+@media screen and (max-width: 799px) {
+  /* line 505, ../sass/headerAndMenu.sass */
+  .wrapper > header > .navBlock {
+    height: 65px;
+    position: relative; }
+    /* line 509, ../sass/headerAndMenu.sass */
+    .wrapper > header > .navBlock > .menuIco {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    /* line 516, ../sass/headerAndMenu.sass */
+    .wrapper > header > .navBlock > .centerPos {
+      width: auto;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      /* line 520, ../sass/headerAndMenu.sass */
+      .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper {
+        margin: 0px auto; }
+        /* line 523, ../sass/headerAndMenu.sass */
+        .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .logo {
+          padding-top: 15px;
+          margin-right: 0px; }
+          /* line 527, ../sass/headerAndMenu.sass */
+          .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .logo > a {
+            width: 80px;
+            height: 33px;
+            background-image: url("../img/logo.png");
+            background-size: 80px 33px;
+            background-repeat: no-repeat;
+            background-position: 0 100%; }
+        /* line 535, ../sass/headerAndMenu.sass */
+        .wrapper > header > .navBlock > .centerPos > .logoAndMenuWrapper > .navMenu {
+          display: none; }
+      /* line 538, ../sass/headerAndMenu.sass */
+      .wrapper > header > .navBlock > .centerPos > .phonesBlock {
+        display: none; }
+  /* line 541, ../sass/headerAndMenu.sass */
+  .wrapper > header > .headerBlock {
+    height: 430px; }
+    /* line 545, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .cont > .centerBlock {
+      width: 450px; }
+      /* line 547, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock {
+        width: inherit; }
+        /* line 550, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .title {
+          font-size: 30px;
+          line-height: 30px; }
+        /* line 554, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .subTitle {
+          font-size: 17px;
+          line-height: 17px; }
+      /* line 559, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper {
+        margin-top: 35px; }
+        /* line 561, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock {
+          width: 235px;
+          padding: 19px 17px;
+          margin-bottom: 0px; }
+          /* line 566, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock > .discount {
+            font-size: 30px;
+            line-height: 30px;
+            margin-right: 8px; }
+          /* line 571, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock > .descr {
+            font-size: 16px;
+            line-height: 16px; } }
+@media screen and (max-width: 479px) {
+  /* line 586, ../sass/headerAndMenu.sass */
+  .wrapper > header > .headerBlock {
+    height: 450px; }
+    /* line 590, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .cont > .centerBlock {
+      width: 282px;
+      padding-bottom: 0px; }
+      /* line 594, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock {
+        margin-bottom: 46px; }
+        /* line 597, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .title {
+          font-size: 19px;
+          line-height: 19px;
+          margin-bottom: 31px; }
+        /* line 602, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .textBlock > .subTitle {
+          font-size: 16px;
+          line-height: 18px; }
+      /* line 606, ../sass/headerAndMenu.sass */
+      .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper {
+        margin-top: 0px; }
+        /* line 609, ../sass/headerAndMenu.sass */
+        .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock {
+          width: 134px;
+          padding: 14px 14px;
+          margin: 0px auto 6px auto; }
+          /* line 614, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock > .discount {
+            font-size: 20px;
+            line-height: 20px;
+            margin-right: 5px; }
+          /* line 619, ../sass/headerAndMenu.sass */
+          .wrapper > header > .headerBlock > .cont > .centerBlock > .eventsWrapper > .eventBlock > .descr {
+            font-size: 11px;
+            line-height: 10px; }
+    /* line 623, ../sass/headerAndMenu.sass */
+    .wrapper > header > .headerBlock > .cont > .arrow {
+      bottom: 27px; } }

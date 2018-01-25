@@ -1,0 +1,88 @@
+@import "vars.sass"
+
+.wrapper
+	>article
+		>.ourGuaranteesBlock
+			padding-top: 70px
+			padding-bottom: 110px
+
+			>.title
+				width: 100%
+				font-size: 20px
+				font-weight: bold
+				text-transform: uppercase
+				text-align: center
+				margin-bottom: 50px
+
+			>.guaranteesWrapper
+				max-width: 750px
+				margin: auto
+				display: -webkit-flex
+				display: -moz-flex
+				display: -ms-flex
+				display: -o-flex
+				display: flex
+				flex-wrap: wrap
+
+				>.guaranteeWrapper					
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					margin: 0px auto 22px auto
+					font-weight: wrap
+					flex-grow: 1
+
+					&:last-child
+						margin-bottom: 0
+
+					>.angel						
+						width: 30px
+						height: 23px
+						margin-right: 16px
+						flex-shrink: 0
+						background-image: url("../img/yellowArrow.svg")
+						background-size: cover
+						background-repeat: no-repeat						
+
+					>.text
+						padding-top: 2px
+						font-size: 20px
+						line-height: 20px
+
+
+
+/**** MEDIA ****/
+
+@media screen and (max-width:1799px)  
+
+@media screen and (max-width:1249px)
+
+@media screen and (max-width:899px)
+
+@media screen and (max-width:799px)
+	.wrapper
+		>article
+			>.ourGuaranteesBlock
+				padding-bottom: 50px
+				padding-top: 50px
+				>.title
+					margin-bottom: 30px
+				>.guaranteesWrapper
+					padding: 0px 20px
+					>.guaranteeWrapper
+						margin-bottom: 12px	
+						>.angel						
+							width: calc(40px * 0.7)
+							height: calc(30px * 0.7)
+							margin-right: 13px						
+
+						>.text
+							font-size: 17px
+							line-height: 17px
+
+
+@media screen and (max-width:767px)	
+
+@media screen and (max-width:479px)
